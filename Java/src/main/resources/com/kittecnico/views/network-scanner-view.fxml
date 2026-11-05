@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.kittecnico.controllers.NetworkScannerController"
+            style="-fx-background-color: #0d1117;"
+            prefWidth="700" prefHeight="500">
+
+    <top>
+        <VBox style="-fx-background-color: #0A101C; -fx-border-color: #1A2A42; -fx-border-width: 0 0 1 0;">
+            <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 10;">
+                <Label text="Scanner de Rede" style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: white;"><graphic><org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-network_check" iconSize="18" iconColor="white"/></graphic></Label>
+                <Region HBox.hgrow="ALWAYS" />
+                <Button text="Escanear Rede Local (ARP)" onAction="#scanNetwork" style="-fx-background-color: #10B981; -fx-text-fill: white; -fx-font-weight: bold;"><graphic><org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-search" iconSize="16" iconColor="white"/></graphic></Button>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="tableNetwork" style="-fx-background-color: #0d1117; -fx-base: #0d1117; -fx-control-inner-background: #0d1117; -fx-table-cell-border-color: #1E3050;">
+            <columns>
+                <TableColumn fx:id="colIp" text="Endereço IP" prefWidth="200">
+                    <cellValueFactory><PropertyValueFactory property="ip" /></cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="colMac" text="Endereço MAC (Físico)" prefWidth="250">
+                    <cellValueFactory><PropertyValueFactory property="mac" /></cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="colType" text="Tipo" prefWidth="150">
+                    <cellValueFactory><PropertyValueFactory property="type" /></cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <HBox style="-fx-padding: 5; -fx-background-color: #0A101C;">
+            <Label fx:id="lblStatus" text="Pronto" style="-fx-text-fill: #9CA3AF;" />
+        </HBox>
+    </bottom>
+</BorderPane>
+
+

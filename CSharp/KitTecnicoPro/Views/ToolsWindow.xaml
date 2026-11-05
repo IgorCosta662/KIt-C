@@ -1,0 +1,199 @@
+﻿<Window x:Class="KitTecnicoPro.Views.ToolsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:converters="clr-namespace:KitTecnicoPro.Converters"
+        Title="🛠️ Ferramentas, Plugins e Cracks"
+        Height="680" Width="1040"
+        MinHeight="500" MinWidth="720"
+        WindowStartupLocation="CenterOwner"
+        Background="#0D1117"
+>
+
+
+
+    <Window.Resources>
+
+        <converters:BoolToStringConverter x:Key="BoolToAdminText"/>
+    </Window.Resources>
+
+    <Grid Background="#0D1117">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Cabeçalho -->
+        <Border Grid.Row="0" Background="#0D1117" Padding="16,12">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock Text="🛠️ Ferramentas, Plugins e Cracks"
+                               FontSize="16" FontWeight="Bold" Foreground="#ECEFF1"/>
+                    <TextBlock Text="Gerencie ferramentas manuais, plugins e ativadores"
+                               FontSize="11" Foreground="#546E7A" Margin="0,3,0,0"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button Content="📁 Abrir Pasta" Click="OnOpenFolderClick"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="#78909C" Margin="0,0,8,0"/>
+                    <Button Content="➕ Adicionar" Click="OnAddToolClick"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Background="#0D1117" BorderBrush="#1565C0" Padding="14,6"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Abas de categoria + busca -->
+        <Border Grid.Row="1" Background="#0D1117" Padding="12,8">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="BtnTodos"      Content="Todos"           Click="OnTabClick" Tag="Todos"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="#2196F3" FontWeight="Bold" Padding="12,4"/>
+                    <Button x:Name="BtnFerramentas" Content="🛠️ Ferramentas" Click="OnTabClick" Tag="Ferramentas"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="#90CAF9" Padding="12,4"/>
+                    <Button x:Name="BtnPlugins"    Content="🧩 Plugins"      Click="OnTabClick" Tag="Plugins"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="#90CAF9" Padding="12,4"/>
+                    <Button x:Name="BtnCracks"     Content="🔓 Cracks"       Click="OnTabClick" Tag="Cracks"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="#EF9A9A" Padding="12,4"/>
+                </StackPanel>
+                <TextBox Grid.Column="1" x:Name="TxtBusca" Width="220"
+                         materialDesign:HintAssist.Hint="🔍 Buscar..."
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         Foreground="#ECEFF1" FontSize="12"
+                         TextChanged="OnBuscaChanged"/>
+            </Grid>
+        </Border>
+
+        <!-- Lista -->
+        <ListView x:Name="GridTools" Grid.Row="2"
+                  Background="#0D1117" BorderBrush="#1E3A5F"
+                  Foreground="#ECEFF1"
+                  VirtualizingPanel.IsVirtualizing="True"
+                  AllowDrop="True" Drop="OnDrop" DragOver="OnDragOver">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="MinHeight" Value="40"/>
+                    <Setter Property="Foreground" Value="#ECEFF1"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="#1565C0"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#1E3A5F"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="50">
+                        <GridViewColumn.Header><TextBlock Text="Cat" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding CategoriaIcon}" FontSize="16"
+                                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="190">
+                        <GridViewColumn.Header><TextBlock Text="Nome" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Nome}" FontSize="12" FontWeight="SemiBold"
+                                           Foreground="#ECEFF1" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="260">
+                        <GridViewColumn.Header><TextBlock Text="Descrição" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Descricao}" FontSize="11" Foreground="#90A4AE"
+                                           VerticalAlignment="Center" TextTrimming="CharacterEllipsis" MaxWidth="250"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="100">
+                        <GridViewColumn.Header><TextBlock Text="Categoria" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Categoria}" FontSize="11" Foreground="#78909C" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="60">
+                        <GridViewColumn.Header><TextBlock Text="Admin" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding RunAsAdmin, Converter={StaticResource BoolToAdminText}, ConverterParameter='🛡️|—'}"
+                                           HorizontalAlignment="Center" FontSize="13" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="55">
+                        <GridViewColumn.Header><TextBlock Text="OK" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Existe, Converter={StaticResource BoolToAdminText}, ConverterParameter='✅|❌'}"
+                                           Foreground="{Binding ExisteColor}"
+                                           HorizontalAlignment="Center" FontSize="14" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="190">
+                        <GridViewColumn.Header><TextBlock Text="Ações" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="▶ Abrir" Tag="{Binding}" Click="OnRunToolClick"
+                                            Style="{StaticResource MaterialDesignFlatButton}"
+                                            Foreground="#4CAF50" Padding="6,2" FontSize="11"/>
+                                    <Button Content="📂" Tag="{Binding}" Click="OnOpenFileLocation"
+                                            Style="{StaticResource MaterialDesignFlatButton}"
+                                            Foreground="#78909C" Padding="4,2" FontSize="13"
+                                            ToolTip="Abrir localização do arquivo"/>
+                                    <Button Content="✏" Tag="{Binding}" Click="OnEditToolClick"
+                                            Style="{StaticResource MaterialDesignFlatButton}"
+                                            Foreground="#78909C" Padding="4,2" FontSize="13"/>
+                                    <Button Content="🗑" Tag="{Binding}" Click="OnRemoveToolClick"
+                                            Style="{StaticResource MaterialDesignFlatButton}"
+                                            Foreground="#EF5350" Padding="4,2" FontSize="13"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Rodapé -->
+        <Border Grid.Row="3" Background="#0D1117" Padding="12,8">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="TxtStatus" Foreground="#78909C" FontSize="11"
+                           VerticalAlignment="Center"
+                           Text="Selecione um item e clique em ▶ Abrir para executar"/>
+                <TextBlock Text="   •   💡 Arraste arquivos .exe/.bat para adicionar rapidamente"
+                           Foreground="#37474F" FontSize="11" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
+
+

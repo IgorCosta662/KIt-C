@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.kittecnico.controllers.MainController"
+            style="-fx-background-color: #0d1117;">
+
+    <!-- ══════════════════════ HEADER ══════════════════════════════════════ -->
+    <top>
+        <VBox style="-fx-background-color: linear-gradient(to right, #080e1a, #0f1929, #080e1a); -fx-border-color: #1f2937; -fx-border-width: 1 1 0 1;">
+            <!-- Barra de título Customizada -->
+            <HBox fx:id="titleBar" alignment="CENTER_LEFT" spacing="12" style="-fx-padding: 10 16; -fx-cursor: move;">
+                <!-- Logo -->
+                <StackPane style="-fx-background-color: linear-gradient(to bottom right, #1d4ed8, #0891b2);
+                                  -fx-background-radius: 10; -fx-min-width: 42; -fx-min-height: 42;">
+                    <org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-build" iconSize="22" iconColor="white"/>
+                </StackPane>
+                <VBox>
+                    <Label text="Kit Técnico Pro"
+                           style="-fx-text-fill: #38bdf8; -fx-font-size: 19px; -fx-font-weight: bold;"/>
+                    <Label text="Pós-Formatação &amp; Manutenção de Sistemas"
+                           style="-fx-text-fill: #4b5563; -fx-font-size: 10.5px;"/>
+                </VBox>
+                <Region HBox.hgrow="ALWAYS"/>
+
+                <!-- Info do sistema -->
+                <HBox spacing="16" alignment="CENTER">
+                    <Label fx:id="lblAdmin"    text="Admin: ..."  style="-fx-font-size: 11px;"/>
+                    <Label fx:id="lblInternet" text="Internet: ..." style="-fx-font-size: 11px;"/>
+                    <Label fx:id="lblWinget"   text="Winget: ..."  style="-fx-font-size: 11px;"/>
+                    <!-- Controles da Janela -->
+                    <HBox spacing="2" alignment="CENTER" style="-fx-padding: 0 0 0 10;">
+                        <Button text="—" onAction="#minimizeApp" style="-fx-background-color: transparent; -fx-text-fill: #9ca3af; -fx-font-weight: bold; -fx-cursor: hand;"/>
+                        <Button text="[ ]" onAction="#maximizeApp" style="-fx-background-color: transparent; -fx-text-fill: #9ca3af; -fx-font-weight: bold; -fx-cursor: hand;"/>
+                        <Button text="X" onAction="#exitApp" style="-fx-background-color: transparent; -fx-text-fill: #ef4444; -fx-font-weight: bold; -fx-cursor: hand;"/>
+                    </HBox>
+                </HBox>
+            </HBox>
+
+            <!-- Barra de Ferramentas (Toolbar idêntica ao C#) -->
+            <FlowPane alignment="CENTER_LEFT" hgap="8" vgap="8" style="-fx-padding: 6 12; -fx-background-color: #090f1c; -fx-border-color: transparent transparent #1f2937 transparent; -fx-border-width: 1;">
+                
+                <!-- Dashboard / ISOs -->
+                <HBox spacing="4" style="-fx-padding: 4; -fx-background-color: #101828; -fx-background-radius: 8; -fx-border-color: #1a2a42; -fx-border-radius: 8;">
+                    <Button text="Gerenciador de ISOs" styleClass="chip-btn" onAction="#openIsoManager"/>
+                </HBox>
+
+                <!-- Sistema -->
+                <HBox spacing="4" style="-fx-padding: 4; -fx-background-color: #101828; -fx-background-radius: 8; -fx-border-color: #1a2a42; -fx-border-radius: 8;">
+                    <Label text="Sistema" style="-fx-text-fill: #4a6080; -fx-font-weight: bold; -fx-font-size: 10.5px;" alignment="CENTER" contentDisplay="LEFT"><padding><javafx.geometry.Insets left="4" right="4" top="4"/></padding><graphic><org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-cleaning_services" iconSize="14" iconColor="#4a6080"/></graphic></Label>
+                    <Button text="Limpeza" styleClass="chip-btn" onAction="#cleanSystem"/>
+                    <Button text="Backup Drivers" styleClass="chip-btn" onAction="#backupDrivers"/>
+                    <Button text="Otimizar" styleClass="chip-btn" onAction="#optimizeSystem"/>
+                </HBox>
+
+                <!-- Diagnóstico -->
+                <HBox spacing="4" style="-fx-padding: 4; -fx-background-color: #101828; -fx-background-radius: 8; -fx-border-color: #1a2a42; -fx-border-radius: 8;">
+                    <Label text="Diagnóstico" style="-fx-text-fill: #4a6080; -fx-font-weight: bold; -fx-font-size: 10.5px;" alignment="CENTER" contentDisplay="LEFT"><padding><javafx.geometry.Insets left="4" right="4" top="4"/></padding><graphic><org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-build" iconSize="14" iconColor="#4a6080"/></graphic></Label>
+                    <Button text="Processos" styleClass="chip-btn" onAction="#openProcessManager"/>
+                    <Button text="Info do Sistema" styleClass="chip-btn" onAction="#openSystemInfo"/>
+                      <Button text="Dispositivos" styleClass="chip-btn" onAction="#openDeviceManager"/>
+                      <Button text="Painel de Controle" styleClass="chip-btn" onAction="#openControlPanel"/>
+                    <Button text="Rede" styleClass="chip-btn" onAction="#openNetworkScanner"/>
+                    <Button text="Inicialização" styleClass="chip-btn" onAction="#openStartupManager"/>
+                </HBox>
+
+            </FlowPane>
+
+            <!-- Barra de ações principais -->
+            <BorderPane style="-fx-padding: 8 12; -fx-background-color: #090f1c;">
+                <center>
+                    <FlowPane hgap="6" vgap="6" alignment="CENTER_LEFT">
+                        <Button fx:id="btnInstalarTudo" text="Instalar Tudo"
+                                styleClass="btn-primary-green"
+                                style="-fx-background-color: #15803d;"/>
+                        <Button fx:id="btnInstalarSelecionados" text="Instalar Selecionados"
+                                style="-fx-background-color: #1d4ed8; -fx-text-fill: white;"/>
+                        <Button fx:id="btnAtualizarTudo" text="Atualizar Tudo"
+                                style="-fx-background-color: #c2410c; -fx-text-fill: white;"/>
+                        <Button fx:id="btnVerificarInstalados" text="Verificar Instalados"
+                                style="-fx-background-color: #374151; -fx-text-fill: #9ca3af;"/>
+                        <Button fx:id="btnCancelar" text="Cancelar"
+                                style="-fx-background-color: #991b1b; -fx-text-fill: white;"/>
+                    </FlowPane>
+                </center>
+                <right>
+                    <HBox alignment="CENTER_RIGHT" spacing="10">
+                        <padding><Insets left="10"/></padding>
+                        <Label fx:id="lblContagem"
+                               style="-fx-text-fill: #4b5563; -fx-font-size: 11px;"/>
+                        
+                        <!-- Busca -->
+                        <TextField fx:id="txtBusca" promptText="Buscar aplicativo..."
+                                   prefWidth="220"
+                                   style="-fx-background-color: #101828; -fx-text-fill: #e5e7eb;
+                                          -fx-border-color: #1f2937; -fx-border-radius: 8; -fx-background-radius: 8; -fx-padding: 5 10;"/>
+                    </HBox>
+                </right>
+            </BorderPane>
+
+            <!-- Status e progresso -->
+            <HBox alignment="CENTER_LEFT" spacing="8" style="-fx-padding: 4 12;">
+                <Label fx:id="lblStatus" text="Pronto"
+                       style="-fx-text-fill: #4b5563; -fx-font-size: 10px;"/>
+                <ProgressBar fx:id="barProgresso" prefWidth="200" prefHeight="6"
+                             style="-fx-accent: #22c55e;" visible="false"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- ══════════════════════ CONTENT ═════════════════════════════════════ -->
+    <center>
+        <SplitPane dividerPositions="0.18"
+                   style="-fx-background-color: #0d1117; -fx-border-color: transparent;">
+
+            <!-- ── Sidebar Categorias ──────────────────────────────────────── -->
+            <VBox style="-fx-background-color: #0d1117;">
+                <Label text="Categorias"
+                       style="-fx-text-fill: #374151; -fx-font-size: 10.5px; -fx-font-weight: bold;
+                              -fx-padding: 8 12 4 12;"/>
+                <ListView fx:id="lstCategorias" VBox.vgrow="ALWAYS"
+                          style="-fx-background-color: #0d1117; -fx-control-inner-background: #0d1117; -fx-border-color: transparent;"/>
+            </VBox>
+
+            <!-- ── Grid de Apps ───────────────────────────────────────────── -->
+            <SplitPane dividerPositions="0.72" orientation="VERTICAL"
+                       style="-fx-background-color: #0d1117;">
+
+                <!-- Cards de Apps -->
+                <ScrollPane fitToWidth="true" hbarPolicy="NEVER"
+                            style="-fx-background-color: #0d1117; -fx-background: #0d1117;">
+                    <FlowPane fx:id="flowApps" hgap="12" vgap="12"
+                              style="-fx-background-color: #0d1117; -fx-padding: 12;"/>
+                </ScrollPane>
+
+                <!-- Painel de Log -->
+                <VBox style="-fx-background-color: #050810;">
+                    <HBox alignment="CENTER_LEFT" spacing="8"
+                          style="-fx-background-color: #0a0f1e; -fx-padding: 5 12;">
+                        <Label text="Log de Operações"
+                               style="-fx-text-fill: #374151; -fx-font-size: 10px; -fx-font-weight: bold;"/>
+                        <Region HBox.hgrow="ALWAYS"/>
+                        <Button text="Limpar" onAction="#clearLog"
+                                style="-fx-background-color: transparent; -fx-text-fill: #374151; -fx-font-size: 9px;"/>
+                    </HBox>
+                    <ScrollPane fx:id="scrollLog" fitToWidth="true" VBox.vgrow="ALWAYS"
+                                style="-fx-background-color: #050810; -fx-background: #050810; -fx-padding: 0;">
+                        <VBox fx:id="panelLog" spacing="0" style="-fx-background-color: #050810; -fx-padding: 4 0;"/>
+                    </ScrollPane>
+                </VBox>
+            </SplitPane>
+        </SplitPane>
+    </center>
+</BorderPane>
+
+
+

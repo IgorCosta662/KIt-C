@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.kittecnico.controllers.ProcessManagerController"
+            style="-fx-background-color: #0d1117;"
+            prefWidth="800" prefHeight="600">
+
+    <!-- Header -->
+    <top>
+        <VBox style="-fx-background-color: #0A101C; -fx-border-color: #1A2A42; -fx-border-width: 0 0 1 0;">
+            <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 10;">
+                <Label text="Gerenciador de Processos" style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: white;"><graphic><org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-memory" iconSize="18" iconColor="white"/></graphic></Label>
+                <Region HBox.hgrow="ALWAYS" />
+                <TextField fx:id="txtBusca" promptText="Buscar processo..." prefWidth="200"
+                           style="-fx-background-color: #101828; -fx-text-fill: white; -fx-border-color: #1E3050; -fx-border-radius: 4;" />
+                <Button text="Atualizar" onAction="#loadProcesses" style="-fx-background-color: #2563EB; -fx-text-fill: white; -fx-font-weight: bold;"><graphic><org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-refresh" iconSize="14" iconColor="white"/></graphic></Button>
+                <Button text="Matar Processo" onAction="#killProcess" style="-fx-background-color: #DC2626; -fx-text-fill: white; -fx-font-weight: bold;"><graphic><org.kordamp.ikonli.javafx.FontIcon iconLiteral="mdal-close" iconSize="14" iconColor="white"/></graphic></Button>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- Table -->
+    <center>
+        <TableView fx:id="tableProcessos" style="-fx-background-color: #0d1117; -fx-base: #0d1117; -fx-control-inner-background: #0d1117; -fx-table-cell-border-color: #1E3050;">
+            <columns>
+                <TableColumn fx:id="colName" text="Nome do Processo" prefWidth="250">
+                    <cellValueFactory><PropertyValueFactory property="name" /></cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="colPid" text="PID" prefWidth="100">
+                    <cellValueFactory><PropertyValueFactory property="pid" /></cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="colSession" text="Sessão" prefWidth="100">
+                    <cellValueFactory><PropertyValueFactory property="sessionName" /></cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="colMem" text="Uso de Memória" prefWidth="150">
+                    <cellValueFactory><PropertyValueFactory property="memory" /></cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <HBox style="-fx-padding: 5; -fx-background-color: #0A101C;">
+            <Label fx:id="lblStatus" text="Pronto" style="-fx-text-fill: #9CA3AF;" />
+        </HBox>
+    </bottom>
+</BorderPane>
+
+

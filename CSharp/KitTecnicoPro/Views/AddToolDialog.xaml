@@ -1,0 +1,100 @@
+﻿<Window x:Class="KitTecnicoPro.Views.AddToolDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="🛠️ Adicionar Ferramenta / Plugin / Crack"
+        Height="500" Width="560"
+        MinHeight="460" MinWidth="480"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize"
+
+        Background="#0D1117">
+
+
+
+    <Grid Background="#0D1117">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#0D1117" Padding="20,14">
+            <StackPanel>
+                <TextBlock Text="🛠️ Adicionar Ferramenta / Plugin / Crack"
+                           FontSize="15" FontWeight="SemiBold" Foreground="#ECEFF1"/>
+                <TextBlock Text="Registre qualquer executável para acesso rápido"
+                           FontSize="11" Foreground="#546E7A" Margin="0,3,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Padding="20,14,20,0">
+            <StackPanel>
+
+                <TextBlock Text="Nome *" Foreground="#78909C" FontSize="11" Margin="0,0,0,4"/>
+                <TextBox x:Name="TxtNome"
+                         materialDesign:HintAssist.Hint="Ex: KMSAuto Net, uBlock Origin, CPU-Z..."
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         Foreground="#ECEFF1" Margin="0,0,0,14"/>
+
+                <TextBlock Text="Categoria *" Foreground="#78909C" FontSize="11" Margin="0,0,0,4"/>
+                <ComboBox x:Name="CmbCategoria" SelectedIndex="0"
+                          Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                          Foreground="#ECEFF1" Margin="0,0,0,14">
+                    <ComboBoxItem Content="Ferramentas"/>
+                    <ComboBoxItem Content="Plugins"/>
+                    <ComboBoxItem Content="Cracks"/>
+                </ComboBox>
+
+                <TextBlock Text="Arquivo (exe, bat, msi...)" Foreground="#78909C" FontSize="11" Margin="0,0,0,4"/>
+                <Grid Margin="0,0,0,14">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="TxtCaminho"
+                             materialDesign:HintAssist.Hint="Caminho completo do arquivo"
+                             Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                             Foreground="#ECEFF1" Margin="0,0,8,0" IsReadOnly="True"/>
+                    <Button Grid.Column="1" Content="📂 Procurar" Click="OnBrowseClick"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Background="#0D1117" BorderBrush="#1565C0" Padding="10,8"/>
+                </Grid>
+
+                <TextBlock Text="Argumentos (opcional)" Foreground="#78909C" FontSize="11" Margin="0,0,0,4"/>
+                <TextBox x:Name="TxtArgs"
+                         materialDesign:HintAssist.Hint="Ex: /silent /norestart"
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         Foreground="#ECEFF1" Margin="0,0,0,14"/>
+
+                <TextBlock Text="Descrição (opcional)" Foreground="#78909C" FontSize="11" Margin="0,0,0,4"/>
+                <TextBox x:Name="TxtDescricao"
+                         materialDesign:HintAssist.Hint="Breve descrição da ferramenta..."
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         Foreground="#ECEFF1" Margin="0,0,0,14" MaxLength="150"/>
+
+                <CheckBox x:Name="ChkAdmin"
+                          Content="🛡️ Executar como Administrador"
+                          Foreground="#90CAF9"
+                          Margin="0,0,0,10"/>
+
+                <TextBlock x:Name="TxtErro" Foreground="#EF5350"
+                           FontSize="12" Margin="0,4,0,0"
+                           Visibility="Collapsed"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Border Grid.Row="2" Background="#0D1117" Padding="20,12">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Cancelar" IsCancel="True" Margin="0,0,10,0"
+                        Style="{StaticResource MaterialDesignFlatButton}"
+                        Foreground="#546E7A"/>
+                <Button Content="💾  Salvar" IsDefault="True" Click="OnSaveClick"
+                        Style="{StaticResource MaterialDesignRaisedButton}"
+                        Background="#0D1117" BorderBrush="#1565C0" Padding="18,8"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
+
+

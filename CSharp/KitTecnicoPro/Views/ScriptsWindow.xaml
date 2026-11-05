@@ -1,0 +1,224 @@
+﻿<Window x:Class="KitTecnicoPro.Views.ScriptsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:converters="clr-namespace:KitTecnicoPro.Converters"
+        Title="📜 Scripts PowerShell"
+        Height="700" Width="1000"
+        MinHeight="500" MinWidth="700"
+        WindowStartupLocation="CenterOwner"
+        Background="#0D1117"
+>
+
+
+
+    <Window.Resources>
+
+        <converters:BoolToStringConverter x:Key="BoolToAdminText"/>
+    </Window.Resources>
+
+    <Grid Background="#0D1117">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Cabeçalho -->
+        <Border Grid.Row="0" Background="#0D1117" Padding="16,12">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock Text="📜 Gerenciador de Scripts PowerShell"
+                               FontSize="16" FontWeight="Bold" Foreground="#ECEFF1"/>
+                    <TextBlock Text="Execute, adicione e organize seus scripts .ps1"
+                               FontSize="11" Foreground="#546E7A" Margin="0,3,0,0"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button Content="📁 Abrir Pasta" Click="OnOpenFolderClick"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="#78909C" Margin="0,0,8,0"/>
+                    <Button Content="➕ Adicionar Script" Click="OnAddScriptClick"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Background="#0D1117" BorderBrush="#1565C0" Padding="14,6"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Filtros -->
+        <Border Grid.Row="1" Background="#0D1117" Padding="12,8">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Categoria:" Foreground="#78909C" FontSize="12"
+                           VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <ComboBox x:Name="CmbFiltro" Width="160" SelectedIndex="0"
+                          SelectionChanged="OnFiltroChanged"
+                          Background="#0D1117" Foreground="#ECEFF1">
+                    <ComboBoxItem Content="Todos"/>
+                    <ComboBoxItem Content="🖥️ Sistema"/>
+                    <ComboBoxItem Content="🌐 Rede"/>
+                    <ComboBoxItem Content="🔒 Segurança"/>
+                    <ComboBoxItem Content="🔧 Manutenção"/>
+                    <ComboBoxItem Content="📜 Personalizado"/>
+                </ComboBox>
+                <TextBox x:Name="TxtBusca" Width="220" Margin="16,0,0,0"
+                         materialDesign:HintAssist.Hint="🔍 Buscar script..."
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         Foreground="#ECEFF1" FontSize="12"
+                         TextChanged="OnBuscaChanged"/>
+                <Button Content="▶ Executar Selecionados" Click="OnRunSelectedClick"
+                        Style="{StaticResource MaterialDesignRaisedButton}"
+                        Background="#0D1117" BorderBrush="#2E7D32"
+                        Padding="12,4" Margin="16,0,0,0" FontSize="12"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Lista de Scripts -->
+        <ListView x:Name="GridScripts" Grid.Row="2"
+                  Background="#0D1117" BorderBrush="#1E3A5F"
+                  Foreground="#ECEFF1"
+                  SelectionMode="Extended"
+                  VirtualizingPanel.IsVirtualizing="True"
+                  AllowDrop="True" Drop="OnDrop" DragOver="OnDragOver">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="MinHeight" Value="40"/>
+                    <Setter Property="Foreground" Value="#ECEFF1"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="#1565C0"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#1E3A5F"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="50">
+                        <GridViewColumn.Header><TextBlock Text="Cat" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding CategoriaIcon}" FontSize="16"
+                                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="200">
+                        <GridViewColumn.Header><TextBlock Text="Nome" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Nome}" FontSize="12" FontWeight="SemiBold"
+                                           Foreground="#ECEFF1" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="240">
+                        <GridViewColumn.Header><TextBlock Text="Descrição" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Descricao}" FontSize="11" Foreground="#90A4AE"
+                                           VerticalAlignment="Center" TextTrimming="CharacterEllipsis" MaxWidth="230"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="110">
+                        <GridViewColumn.Header><TextBlock Text="Categoria" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Categoria}" FontSize="11" Foreground="#78909C" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="65">
+                        <GridViewColumn.Header><TextBlock Text="Admin" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding RunAsAdmin, Converter={StaticResource BoolToAdminText}, ConverterParameter='🛡️|—'}"
+                                           HorizontalAlignment="Center" FontSize="13" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="80">
+                        <GridViewColumn.Header><TextBlock Text="Status" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ExisteTexto}"
+                                           Foreground="{Binding ExisteColor}"
+                                           HorizontalAlignment="Center" FontSize="12" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="170">
+                        <GridViewColumn.Header><TextBlock Text="Ações" Foreground="#78909C" FontSize="11"/></GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="▶ Run" Tag="{Binding}" Click="OnRunClick"
+                                            Style="{StaticResource MaterialDesignFlatButton}"
+                                            Foreground="#4CAF50" Padding="6,2" FontSize="11"/>
+                                    <Button Content="✏" Tag="{Binding}" Click="OnEditScriptClick"
+                                            Style="{StaticResource MaterialDesignFlatButton}"
+                                            Foreground="#78909C" Padding="4,2" FontSize="13"/>
+                                    <Button Content="🗑" Tag="{Binding}" Click="OnRemoveScriptClick"
+                                            Style="{StaticResource MaterialDesignFlatButton}"
+                                            Foreground="#EF5350" Padding="4,2" FontSize="13"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Saída do script -->
+        <Grid Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border Background="#0D1117" Padding="10,6">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="💻 Saída:" Foreground="#78909C" FontSize="11" VerticalAlignment="Center"/>
+                    <Button Content="Limpar" Click="OnClearOutputClick"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="#546E7A" FontSize="10" Padding="6,2" Margin="8,0,0,0"/>
+                </StackPanel>
+            </Border>
+            <ScrollViewer x:Name="OutputScroll" Grid.Row="1"
+                          VerticalScrollBarVisibility="Auto"
+                          Background="#0D1117">
+                <TextBox x:Name="TxtOutput"
+                         IsReadOnly="True"
+                         TextWrapping="Wrap"
+                         Background="#0D1117"
+                         Foreground="#A5D6A7"
+                         FontFamily="Consolas"
+                         FontSize="11"
+                         BorderThickness="0"
+                         Padding="12,8"/>
+            </ScrollViewer>
+        </Grid>
+
+        <!-- Rodapé -->
+        <Border Grid.Row="4" Background="#0D1117" Padding="12,8">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="TxtStatus" Foreground="#78909C" FontSize="11"
+                           VerticalAlignment="Center"
+                           Text="Pronto — selecione um script e clique em ▶ Run"/>
+                <TextBlock Text="   •   💡 Arraste arquivos .ps1 para adicionar rapidamente"
+                           Foreground="#37474F" FontSize="11" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
+
+

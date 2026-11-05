@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.kittecnico.controllers.IsoManagerController"
+            style="-fx-background-color: #0d1117;"
+            prefWidth="1160" prefHeight="700">
+
+    <top>
+        <VBox>
+            <HBox alignment="CENTER_LEFT" spacing="12" style="-fx-padding: 20 14; -fx-background-color: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);">
+                <VBox>
+                    <Label text="Gerenciador de ISOs" style="-fx-font-size: 19px; -fx-font-weight: bold; -fx-text-fill: #ECEFF1;"/>
+                    <Label text="Baixe e gerencie imagens de sistemas operacionais de forma rápida e centralizada" style="-fx-font-size: 11px; -fx-text-fill: #94A3B8;"/>
+                </VBox>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Button text="Pasta ISOs" onAction="#openIsoFolder" styleClass="chip-btn" style="-fx-text-fill: #90CAF9; -fx-border-color: #37474F; -fx-font-size: 13px; -fx-padding: 6 12;"/>
+                <Button text="Adicionar ISO" onAction="#addCustomIso" styleClass="chip-btn" style="-fx-text-fill: #A5D6A7; -fx-border-color: #37474F; -fx-font-size: 13px; -fx-padding: 6 12;"/>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 14 8; -fx-background-color: #16213E;">
+                <TextField fx:id="txtSearch" promptText="Buscar ISO..." prefWidth="250" style="-fx-background-color: #0d1117; -fx-text-fill: white;"/>
+                <ComboBox fx:id="cmbCategory" prefWidth="150" promptText="Categoria"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Label fx:id="lblCount" text="0 ISOs listadas" style="-fx-text-fill: #94A3B8;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox style="-fx-padding: 10;">
+            <TableView fx:id="tableIsos" VBox.vgrow="ALWAYS" style="-fx-background-color: #0d1117;">
+                <columns>
+                    <TableColumn fx:id="colName" text="Nome da ISO" prefWidth="250"/>
+                    <TableColumn fx:id="colCategory" text="Categoria" prefWidth="120"/>
+                    <TableColumn fx:id="colArchitecture" text="Arq." prefWidth="60"/>
+                    <TableColumn fx:id="colSize" text="Tamanho" prefWidth="90"/>
+                    <TableColumn fx:id="colStatus" text="Status" prefWidth="120"/>
+                    <TableColumn fx:id="colActions" text="Ações" prefWidth="350"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 10; -fx-background-color: #16213E;">
+            <Label fx:id="lblGlobalStatus" text="Pronto." style="-fx-text-fill: #94A3B8;"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <ProgressBar fx:id="progressBar" prefWidth="200" visible="false"/>
+        </HBox>
+    </bottom>
+</BorderPane>

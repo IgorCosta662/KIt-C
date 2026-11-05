@@ -1,0 +1,40 @@
+# Dependencias portateis e distribuicao portatil (arquivos grandes / binarios)
+Dependencias/
+Portatil/
+
+# Pastas de download, cache, logs e instaladores offline
+offline/
+**/offline/
+cache/
+**/cache/
+isos/
+**/isos/
+Logs/
+**/Logs/
+Relatorios/
+**/Relatorios/
+Setups/
+*.iso
+*.msix
+*.msixbundle
+*.exe
+*.msi
+
+# Artefatos de compilacao C# / .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+# Artefatos de compilacao Java / Maven
+**/target/
+*.class
+*.jar
+!**/wrapper/*.jar
+
+# Arquivos temporarios
+*.tmp
+*.part
+*.swp
+*~

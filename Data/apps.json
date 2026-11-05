@@ -1,0 +1,3462 @@
+[
+  {
+    "nome": "Google Chrome",
+    "id": "Google.Chrome",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador web do Google"
+  },
+  {
+    "nome": "Mozilla Firefox",
+    "id": "Mozilla.Firefox",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador web da Mozilla"
+  },
+  {
+    "nome": "Mozilla Firefox ESR",
+    "id": "Mozilla.Firefox.ESR",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Firefox com suporte estendido"
+  },
+  {
+    "nome": "Brave Browser",
+    "id": "Brave.Brave",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador focado em privacidade"
+  },
+  {
+    "nome": "Microsoft Edge",
+    "id": "Microsoft.Edge",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador da Microsoft"
+  },
+  {
+    "nome": "Opera",
+    "id": "Opera.Opera",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador com VPN integrada"
+  },
+  {
+    "nome": "Opera GX",
+    "id": "Opera.OperaGX",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador gamer da Opera"
+  },
+  {
+    "nome": "Vivaldi",
+    "id": "VivaldiTechnologies.Vivaldi",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador altamente customizável"
+  },
+  {
+    "nome": "Tor Browser",
+    "id": "TorProject.TorBrowser",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador anônimo Tor"
+  },
+  {
+    "nome": "Waterfox",
+    "id": "Waterfox.Waterfox",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Firefox alternativo focado em privacidade"
+  },
+  {
+    "nome": "LibreWolf",
+    "id": "LibreWolf.LibreWolf",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Firefox hardened focado em privacidade"
+  },
+  {
+    "nome": "Pale Moon",
+    "id": "MoonchildProductions.PaleMoon",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador fork do Firefox clássico"
+  },
+  {
+    "nome": "Yandex Browser",
+    "id": "Yandex.Browser",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador da Yandex com proteções"
+  },
+  {
+    "nome": "Chromium",
+    "id": "Hibbiki.Chromium",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Versão open source do Chrome"
+  },
+  {
+    "nome": "7-Zip",
+    "id": "7zip.7zip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador gratuito e open source"
+  },
+  {
+    "nome": "WinRAR",
+    "id": "RARLab.WinRAR",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador RAR/ZIP"
+  },
+  {
+    "nome": "PeaZip",
+    "id": "GiorgioTani.PeaZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador open source"
+  },
+  {
+    "nome": "WinZip",
+    "id": "Corel.WinZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Clássico compactador ZIP"
+  },
+  {
+    "nome": "Bandizip",
+    "id": "Bandisoft.Bandizip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador rápido e moderno"
+  },
+  {
+    "nome": "NanaZip",
+    "id": "M2Team.NanaZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Fork do 7-Zip com interface moderna"
+  },
+  {
+    "nome": "Zipware",
+    "id": "Zipware.Zipware",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador gratuito simples"
+  },
+  {
+    "nome": "VLC Media Player",
+    "id": "VideoLAN.VLC",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Player multimídia completo"
+  },
+  {
+    "nome": "MPC-HC",
+    "id": "clsid2.mpc-hc",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Media Player Classic HC"
+  },
+  {
+    "nome": "PotPlayer",
+    "id": "Daum.PotPlayer",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Player de vídeo avançado"
+  },
+  {
+    "nome": "Spotify",
+    "id": "Spotify.Spotify",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Streaming de música"
+  },
+  {
+    "nome": "iTunes",
+    "id": "Apple.iTunes",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Player e loja da Apple"
+  },
+  {
+    "nome": "foobar2000",
+    "id": "PeterPawlowski.foobar2000",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Player de áudio avançado"
+  },
+  {
+    "nome": "AIMP",
+    "id": "AIMP.AIMP",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Player de áudio com equalizador"
+  },
+  {
+    "nome": "Audacity",
+    "id": "Audacity.Audacity",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de áudio gratuito"
+  },
+  {
+    "nome": "HandBrake",
+    "id": "HandBrake.HandBrake",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Conversor de vídeo open source"
+  },
+  {
+    "nome": "OBS Studio",
+    "id": "OBSProject.OBSStudio",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gravação e streaming de tela"
+  },
+  {
+    "nome": "DaVinci Resolve",
+    "id": "Blackmagic.DaVinciResolve",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de vídeo profissional"
+  },
+  {
+    "nome": "GIMP",
+    "id": "GIMP.GIMP",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de imagens gratuito"
+  },
+  {
+    "nome": "Inkscape",
+    "id": "Inkscape.Inkscape",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de vetores"
+  },
+  {
+    "nome": "Krita",
+    "id": "KDE.Krita",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Pintura digital"
+  },
+  {
+    "nome": "IrfanView",
+    "id": "IrfanSkiljan.IrfanView",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Visualizador de imagens rápido"
+  },
+  {
+    "nome": "K-Lite Codec Pack",
+    "id": "CodecGuide.K-LiteCodecPack.Full",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Pacote de codecs para vídeo/áudio"
+  },
+  {
+    "nome": "VirtualDub2",
+    "id": "VirtualDub2.VirtualDub2",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de vídeo leve"
+  },
+  {
+    "nome": "Kdenlive",
+    "id": "KDE.Kdenlive",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de vídeo open source"
+  },
+  {
+    "nome": "Shotcut",
+    "id": "Meltytech.Shotcut",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de vídeo gratuito"
+  },
+  {
+    "nome": "MediaInfo",
+    "id": "MediaArea.MediaInfo",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Análise técnica de arquivos de mídia"
+  },
+  {
+    "nome": "MKVToolNix",
+    "id": "MKVToolNix.MKVToolNix",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Manipulação de arquivos MKV"
+  },
+  {
+    "nome": "Subtitle Edit",
+    "id": "Nikse.SubtitleEdit",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de legendas"
+  },
+  {
+    "nome": "Lightshot",
+    "id": "Skillbrains.Lightshot",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Captura de tela com anotações rápidas"
+  },
+  {
+    "nome": "LosslessCut",
+    "id": "mifi.lossless-cut",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Corte de vídeo sem recodificação"
+  },
+  {
+    "nome": "Figma",
+    "id": "Figma.Figma",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Design de interfaces e prototipagem"
+  },
+  {
+    "nome": "Deezer",
+    "id": "Deezer.Deezer",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Streaming de música Deezer"
+  },
+  {
+    "nome": "Plex Media Player",
+    "id": "Plex.PlexMediaPlayer",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Player do servidor Plex"
+  },
+  {
+    "nome": "Stremio",
+    "id": "Stremio.Stremio",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Streaming de filmes e séries"
+  },
+  {
+    "nome": "Winamp",
+    "id": "Winamp.Winamp",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Clássico player de mídia"
+  },
+  {
+    "nome": "FFmpeg",
+    "id": "Gyan.FFmpeg",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite de conversão de mídia via linha de comando"
+  },
+  {
+    "nome": "yt-dlp",
+    "id": "yt-dlp.yt-dlp",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Download de vídeos do YouTube e outros"
+  },
+  {
+    "nome": "Captura",
+    "id": "MathewSachin.Captura",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gravação de tela leve"
+  },
+  {
+    "nome": "Adobe Creative Cloud",
+    "id": "Adobe.CreativeCloud",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite de aplicativos Adobe"
+  },
+  {
+    "nome": "Telegram Desktop",
+    "id": "Telegram.TelegramDesktop",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Mensagens seguras"
+  },
+  {
+    "nome": "Discord",
+    "id": "Discord.Discord",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Chat para gamers e comunidades"
+  },
+  {
+    "nome": "WhatsApp",
+    "id": "WhatsApp.WhatsApp",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Mensagens do WhatsApp para desktop"
+  },
+  {
+    "nome": "Zoom",
+    "id": "Zoom.Zoom",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Videoconferência"
+  },
+  {
+    "nome": "Microsoft Teams",
+    "id": "Microsoft.Teams",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Colaboração e reuniões"
+  },
+  {
+    "nome": "Skype",
+    "id": "Microsoft.Skype",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Chamadas e mensagens"
+  },
+  {
+    "nome": "Slack",
+    "id": "SlackTechnologies.Slack",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Comunicação para equipes"
+  },
+  {
+    "nome": "Signal",
+    "id": "OpenWhisperSystems.Signal",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Mensagens criptografadas"
+  },
+  {
+    "nome": "Thunderbird",
+    "id": "Mozilla.Thunderbird",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente de e-mail da Mozilla"
+  },
+  {
+    "nome": "mIRC",
+    "id": "mIRC.mIRC",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente IRC"
+  },
+  {
+    "nome": "Viber",
+    "id": "Viber.Viber",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Mensagens e chamadas Viber"
+  },
+  {
+    "nome": "RustDesk",
+    "id": "RustDesk.RustDesk",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Acesso remoto open source"
+  },
+  {
+    "nome": "Google Chat",
+    "id": "Google.Chat",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Chat corporativo do Google"
+  },
+  {
+    "nome": "Webex",
+    "id": "Cisco.Webex",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Videoconferência Cisco"
+  },
+  {
+    "nome": "Element (Matrix)",
+    "id": "Element.Element",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente Matrix descentralizado"
+  },
+  {
+    "nome": "eM Client",
+    "id": "eMClient.eMClient",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente de e-mail moderno"
+  },
+  {
+    "nome": "Mailbird",
+    "id": "Mailbird.Mailbird",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente de e-mail elegante"
+  },
+  {
+    "nome": "LibreOffice",
+    "id": "TheDocumentFoundation.LibreOffice",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite de escritório gratuita"
+  },
+  {
+    "nome": "Adobe Acrobat Reader",
+    "id": "Adobe.Acrobat.Reader.64-bit",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Leitor de PDF da Adobe"
+  },
+  {
+    "nome": "Foxit PDF Reader",
+    "id": "Foxit.FoxitReader",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Leitor de PDF leve"
+  },
+  {
+    "nome": "SumatraPDF",
+    "id": "SumatraPDF.SumatraPDF",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Leitor de PDF minimalista"
+  },
+  {
+    "nome": "Notepad++",
+    "id": "Notepad++.Notepad++",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de texto avançado"
+  },
+  {
+    "nome": "WPS Office",
+    "id": "Kingsoft.WPSOffice",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite Office gratuita compatível com MS"
+  },
+  {
+    "nome": "OnlyOffice",
+    "id": "ONLYOFFICE.DesktopEditors",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite de escritório online/offline"
+  },
+  {
+    "nome": "Obsidian",
+    "id": "Obsidian.Obsidian",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Notas em Markdown com links"
+  },
+  {
+    "nome": "Notion",
+    "id": "Notion.Notion",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Notas, tarefas e wiki"
+  },
+  {
+    "nome": "Typora",
+    "id": "Typora.Typora",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor Markdown minimalista"
+  },
+  {
+    "nome": "Joplin",
+    "id": "Joplin.Joplin",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Notas e listas com sincronização"
+  },
+  {
+    "nome": "PDF24 Creator",
+    "id": "geek-soft.PDF24Creator",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Criação e edição de PDF gratuita"
+  },
+  {
+    "nome": "PDFCreator",
+    "id": "pdfforge.PDFCreator",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Impressora PDF virtual"
+  },
+  {
+    "nome": "FreeOffice",
+    "id": "SoftMaker.FreeOffice",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite de escritório gratuita SoftMaker"
+  },
+  {
+    "nome": "MarkText",
+    "id": "marktext.marktext",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor Markdown WYSIWYG"
+  },
+  {
+    "nome": "Logseq",
+    "id": "Logseq.Logseq",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Notas e base de conhecimento"
+  },
+  {
+    "nome": "Calibre",
+    "id": "calibre.calibre",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de e-books"
+  },
+  {
+    "nome": "Zotero",
+    "id": "Zotero.Zotero",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de referências bibliográficas"
+  },
+  {
+    "nome": "draw.io",
+    "id": "JGraph.Draw",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Diagramas e fluxogramas"
+  },
+  {
+    "nome": "Okular",
+    "id": "KDE.Okular",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Leitor de documentos KDE"
+  },
+  {
+    "nome": "CCleaner",
+    "id": "Piriform.CCleaner",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Limpeza e otimização do sistema"
+  },
+  {
+    "nome": "CPU-Z",
+    "id": "CPUID.CPU-Z",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Informações do processador"
+  },
+  {
+    "nome": "CrystalDiskInfo",
+    "id": "CrystalDewWorld.CrystalDiskInfo",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Monitoramento de discos"
+  },
+  {
+    "nome": "CrystalDiskMark",
+    "id": "CrystalDewWorld.CrystalDiskMark",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Benchmark de discos"
+  },
+  {
+    "nome": "HWiNFO",
+    "id": "REALiX.HWiNFO",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Monitoramento completo de hardware"
+  },
+  {
+    "nome": "GPU-Z",
+    "id": "TechPowerUp.GPU-Z",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Informações da placa de vídeo"
+  },
+  {
+    "nome": "HWMonitor",
+    "id": "CPUID.HWMonitor",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Monitor de temperatura e voltagem"
+  },
+  {
+    "nome": "MSI Afterburner",
+    "id": "MSI.Afterburner",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Overclock e monitor de GPU"
+  },
+  {
+    "nome": "TreeSize Free",
+    "id": "JAMSoftware.TreeSize.Free",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Análise de uso do disco"
+  },
+  {
+    "nome": "WizTree",
+    "id": "AntibodySoftware.WizTree",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Analisador de disco ultrarrápido"
+  },
+  {
+    "nome": "Everything",
+    "id": "voidtools.Everything",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Busca instantânea de arquivos"
+  },
+  {
+    "nome": "Rufus",
+    "id": "Rufus.Rufus",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Criador de USB bootável"
+  },
+  {
+    "nome": "Ventoy",
+    "id": "Ventoy.Ventoy",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "USB multiboot"
+  },
+  {
+    "nome": "Etcher",
+    "id": "Balena.Etcher",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Flash de imagens ISO em USB"
+  },
+  {
+    "nome": "PowerToys",
+    "id": "Microsoft.PowerToys",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Utilitários avanÃ§ados da Microsoft"
+  },
+  {
+    "nome": "AutoHotkey",
+    "id": "AutoHotkey.AutoHotkey",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Automação de tarefas e macros"
+  },
+  {
+    "nome": "ShareX",
+    "id": "ShareX.ShareX",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Capturas de tela e gravação"
+  },
+  {
+    "nome": "Greenshot",
+    "id": "Greenshot.Greenshot",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Captura de tela com anotações"
+  },
+  {
+    "nome": "Snappy Driver Installer",
+    "id": "GlennDelahoy.SnappyDriverInstallerOrigin",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Instalador de drivers offline"
+  },
+  {
+    "nome": "Driver Booster",
+    "id": "IObit.DriverBooster",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Atualizador de drivers"
+  },
+  {
+    "nome": "TeamViewer",
+    "id": "TeamViewer.TeamViewer",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Acesso remoto"
+  },
+  {
+    "nome": "AnyDesk",
+    "id": "AnyDeskSoftwareGmbH.AnyDesk",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Acesso remoto leve"
+  },
+  {
+    "nome": "Remote Desktop Manager",
+    "id": "Devolutions.RemoteDesktopManager",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de conexões remotas"
+  },
+  {
+    "nome": "Revo Uninstaller",
+    "id": "RevoUninstaller.RevoUninstaller",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Desinstalador avançado"
+  },
+  {
+    "nome": "Bulk Rename Utility",
+    "id": "TGRMN.BulkRenameUtility",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Renomear arquivos em lote"
+  },
+  {
+    "nome": "WinDirStat",
+    "id": "WinDirStat.WinDirStat",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Mapa visual de uso do disco"
+  },
+  {
+    "nome": "Process Hacker",
+    "id": "wj32.ProcessHacker",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de processos avançado"
+  },
+  {
+    "nome": "System Informer",
+    "id": "wj32.SystemInformer",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Sucessor open source do Process Hacker"
+  },
+  {
+    "nome": "Sysinternals Suite",
+    "id": "Microsoft.Sysinternals",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite de ferramentas do sistema"
+  },
+  {
+    "nome": "Glasswire",
+    "id": "GlassWire.GlassWire",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Monitor de rede com firewall"
+  },
+  {
+    "nome": "NetLimiter",
+    "id": "Locktime.NetLimiter.4",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle de banda por processo"
+  },
+  {
+    "nome": "NirSoft NirLauncher",
+    "id": "NirSoft.NirLauncher",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Coleção de utilitários NirSoft"
+  },
+  {
+    "nome": "f.lux",
+    "id": "flux.flux",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Filtro de luz azul noturno"
+  },
+  {
+    "nome": "Keypirinha",
+    "id": "Keypirinha.Keypirinha",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Lançador de aplicativos rápido"
+  },
+  {
+    "nome": "Flow Launcher",
+    "id": "Flow-Launcher.Flow-Launcher",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Lançador de aplicativos moderno"
+  },
+  {
+    "nome": "Total Commander",
+    "id": "Ghisler.TotalCommander",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de arquivos dual-pane"
+  },
+  {
+    "nome": "Double Commander",
+    "id": "alexx2000.DoubleCommander",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de arquivos open source"
+  },
+  {
+    "nome": "Files App",
+    "id": "Files-Community.Files",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de arquivos moderno"
+  },
+  {
+    "nome": "QuickLook",
+    "id": "QL-Win.QuickLook",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Prévia rápida de arquivos com espaço"
+  },
+  {
+    "nome": "O&O ShutUp10++",
+    "id": "OO-Software.ShutUp10",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle de privacidade do Windows 10/11"
+  },
+  {
+    "nome": "WingetUI",
+    "id": "SomePythonThings.WingetUIStore",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Interface gráfica para winget"
+  },
+  {
+    "nome": "Rainmeter",
+    "id": "Rainmeter.Rainmeter",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Personalização da área de trabalho"
+  },
+  {
+    "nome": "TranslucentTB",
+    "id": "TranslucentTB.TranslucentTB",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Barra de tarefas transparente"
+  },
+  {
+    "nome": "Wox",
+    "id": "Wox.Wox",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Lançador de aplicativos estilo Alfred"
+  },
+  {
+    "nome": "UltraViewer",
+    "id": "DucFabulous.UltraViewer",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Acesso remoto leve e gratuito"
+  },
+  {
+    "nome": "OpenHashTab",
+    "id": "namazso.OpenHashTab",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Verificação de hash no menu de contexto"
+  },
+  {
+    "nome": "ExifTool",
+    "id": "OliverBetz.ExifTool",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Leitura e edição de metadados de arquivos"
+  },
+  {
+    "nome": "TaskbarX",
+    "id": "ChrisAndriessen.TaskbarX",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Centraliza ícones da barra de tarefas"
+  },
+  {
+    "nome": "ModernFlyouts",
+    "id": "ModernFlyouts.ModernFlyouts",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Flyouts modernos para Windows"
+  },
+  {
+    "nome": "EarTrumpet",
+    "id": "File-New-Project.EarTrumpet",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle de volume por aplicativo"
+  },
+  {
+    "nome": "Fences",
+    "id": "Stardock.Fences",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Organização de ícones na área de trabalho"
+  },
+  {
+    "nome": "Wireshark",
+    "id": "WiresharkFoundation.Wireshark",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Analisador de pacotes de rede"
+  },
+  {
+    "nome": "Speccy",
+    "id": "Piriform.Speccy",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Informações do sistema"
+  },
+  {
+    "nome": "Recuva",
+    "id": "Piriform.Recuva",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Recuperação de arquivos deletados"
+  },
+  {
+    "nome": "Disk2vhd",
+    "id": "Microsoft.Disk2vhd",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Converter disco físico em VHD"
+  },
+  {
+    "nome": "FurMark",
+    "id": "Geeks3D.FurMark",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Benchmark e stress test de GPU"
+  },
+  {
+    "nome": "Prime95",
+    "id": "Mersenne.Prime95",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Stress test de CPU"
+  },
+  {
+    "nome": "AIDA64 Extreme",
+    "id": "FinalWire.AIDA64Extreme",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Diagnóstico e benchmark completo"
+  },
+  {
+    "nome": "MemTest86",
+    "id": "PassMark.MemTest86",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Teste de memória RAM"
+  },
+  {
+    "nome": "Macrium Reflect Free",
+    "id": "MacriumSoftware.MacriumReflect",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Backup e clonagem de disco"
+  },
+  {
+    "nome": "EaseUS Todo Backup",
+    "id": "EaseUS.TodoBackup",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Backup de disco e partições"
+  },
+  {
+    "nome": "Malwarebytes",
+    "id": "Malwarebytes.Malwarebytes",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Anti-malware"
+  },
+  {
+    "nome": "Kaspersky Free",
+    "id": "Kaspersky.KasperskyFree",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Antivírus gratuito Kaspersky"
+  },
+  {
+    "nome": "Avast Free Antivirus",
+    "id": "Avast.Avast",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Antivírus gratuito"
+  },
+  {
+    "nome": "AVG Antivirus",
+    "id": "AVG.AVG",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Antivírus gratuito AVG"
+  },
+  {
+    "nome": "Bitdefender Free",
+    "id": "Bitdefender.Bitdefender",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Antivírus Bitdefender"
+  },
+  {
+    "nome": "Bitwarden",
+    "id": "Bitwarden.Bitwarden",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de senhas open source"
+  },
+  {
+    "nome": "KeePassXC",
+    "id": "KeePassXCTeam.KeePassXC",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de senhas local"
+  },
+  {
+    "nome": "VeraCrypt",
+    "id": "IDRIX.VeraCrypt",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Criptografia de volumes"
+  },
+  {
+    "nome": "ProtonVPN",
+    "id": "ProtonTechnologies.ProtonVPN",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "VPN segura e gratuita"
+  },
+  {
+    "nome": "WireGuard",
+    "id": "WireGuard.WireGuard",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "VPN moderna e eficiente"
+  },
+  {
+    "nome": "OpenVPN",
+    "id": "OpenVPNTechnologies.OpenVPN",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "VPN open source"
+  },
+  {
+    "nome": "Spybot Search & Destroy",
+    "id": "Safer-Networking.SpybotSearchAndDestroy",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Anti-spyware"
+  },
+  {
+    "nome": "Tinywall",
+    "id": "PylSoft.TinyWall",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Firewall leve para Windows"
+  },
+  {
+    "nome": "Autoruns",
+    "id": "Microsoft.Sysinternals.Autoruns",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerencia programas de inicialização"
+  },
+  {
+    "nome": "Defender Control",
+    "id": "Sadiqmd.DefenderControl",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle do Windows Defender"
+  },
+  {
+    "nome": "ClamWin",
+    "id": "ClamWin.ClamWin",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Antivírus open source ClamAV"
+  },
+  {
+    "nome": "Windscribe",
+    "id": "Windscribe.Windscribe",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "VPN gratuita com 10GB/mês"
+  },
+  {
+    "nome": "Mullvad VPN",
+    "id": "MullvadVPN.MullvadVPN",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "VPN focada em privacidade"
+  },
+  {
+    "nome": "1Password",
+    "id": "AgileBits.1Password",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de senhas premium"
+  },
+  {
+    "nome": "Dashlane",
+    "id": "Dashlane.Dashlane",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de senhas"
+  },
+  {
+    "nome": "Visual Studio Code",
+    "id": "Microsoft.VisualStudioCode",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de código da Microsoft"
+  },
+  {
+    "nome": "Visual Studio 2022 Community",
+    "id": "Microsoft.VisualStudio.2022.Community",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "IDE completa da Microsoft"
+  },
+  {
+    "nome": "Git",
+    "id": "Git.Git",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle de versão"
+  },
+  {
+    "nome": "GitHub Desktop",
+    "id": "GitHub.GitHubDesktop",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Interface gráfica do GitHub"
+  },
+  {
+    "nome": "GitHub CLI",
+    "id": "GitHub.cli",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "GitHub na linha de comando"
+  },
+  {
+    "nome": "GitKraken",
+    "id": "Axosoft.GitKraken",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente Git visual e poderoso"
+  },
+  {
+    "nome": "Sourcetree",
+    "id": "Atlassian.Sourcetree",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente Git gratuito da Atlassian"
+  },
+  {
+    "nome": "Python 3.12",
+    "id": "Python.Python.3.12",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Linguagem de programação Python"
+  },
+  {
+    "nome": "Python 3.11",
+    "id": "Python.Python.3.11",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Python 3.11 LTS"
+  },
+  {
+    "nome": "Node.js LTS",
+    "id": "OpenJS.NodeJS.LTS",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime JavaScript"
+  },
+  {
+    "nome": ".NET SDK 8",
+    "id": "Microsoft.DotNet.SDK.8",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "SDK do .NET 8"
+  },
+  {
+    "nome": ".NET SDK 9",
+    "id": "Microsoft.DotNet.SDK.9",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "SDK do .NET 9"
+  },
+  {
+    "nome": "JDK 21 (Temurin)",
+    "id": "EclipseAdoptium.Temurin.21.JDK",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Java Development Kit 21 LTS"
+  },
+  {
+    "nome": "JDK 17 (Temurin)",
+    "id": "EclipseAdoptium.Temurin.17.JDK",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Java Development Kit 17 LTS"
+  },
+  {
+    "nome": "IntelliJ IDEA Community",
+    "id": "JetBrains.IntelliJIDEA.Community",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "IDE Java da JetBrains"
+  },
+  {
+    "nome": "PyCharm Community",
+    "id": "JetBrains.PyCharm.Community",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "IDE Python da JetBrains"
+  },
+  {
+    "nome": "WebStorm",
+    "id": "JetBrains.WebStorm",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "IDE JavaScript da JetBrains"
+  },
+  {
+    "nome": "CLion",
+    "id": "JetBrains.CLion",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "IDE C/C++ da JetBrains"
+  },
+  {
+    "nome": "Rider",
+    "id": "JetBrains.Rider",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "IDE .NET da JetBrains"
+  },
+  {
+    "nome": "Android Studio",
+    "id": "Google.AndroidStudio",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "IDE para desenvolvimento Android"
+  },
+  {
+    "nome": "Docker Desktop",
+    "id": "Docker.DockerDesktop",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Contêineres Docker"
+  },
+  {
+    "nome": "Postman",
+    "id": "Postman.Postman",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Testes de API REST"
+  },
+  {
+    "nome": "Insomnia",
+    "id": "Insomnia.Insomnia",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente REST/GraphQL"
+  },
+  {
+    "nome": "HeidiSQL",
+    "id": "HeidiSQL.HeidiSQL",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente MySQL/MariaDB/PostgreSQL"
+  },
+  {
+    "nome": "DBeaver",
+    "id": "dbeaver.dbeaver",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente de banco de dados universal"
+  },
+  {
+    "nome": "WinSCP",
+    "id": "WinSCP.WinSCP",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente FTP/SFTP"
+  },
+  {
+    "nome": "PuTTY",
+    "id": "PuTTY.PuTTY",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente SSH/Telnet"
+  },
+  {
+    "nome": "MobaXterm",
+    "id": "Mobatek.MobaXterm",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Terminal SSH avançado"
+  },
+  {
+    "nome": "Sublime Text",
+    "id": "SublimeHQ.SublimeText.4",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de código rápido"
+  },
+  {
+    "nome": "Vim",
+    "id": "vim.vim",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de texto modal"
+  },
+  {
+    "nome": "Neovim",
+    "id": "Neovim.Neovim",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Vim moderno e extensível"
+  },
+  {
+    "nome": "Windows Terminal",
+    "id": "Microsoft.WindowsTerminal",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Terminal moderno da Microsoft"
+  },
+  {
+    "nome": "PHP",
+    "id": "PHP.PHP",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Linguagem PHP"
+  },
+  {
+    "nome": "Go",
+    "id": "GoLang.Go",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Linguagem de programação Go"
+  },
+  {
+    "nome": "Rust",
+    "id": "Rustlang.Rustup",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Toolchain da linguagem Rust"
+  },
+  {
+    "nome": "CMake",
+    "id": "Kitware.CMake",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Sistema de build multiplataforma"
+  },
+  {
+    "nome": "XAMPP",
+    "id": "ApacheFriends.Xampp",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Apache + PHP + MySQL local"
+  },
+  {
+    "nome": "Terraform",
+    "id": "Hashicorp.Terraform",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Infraestrutura como código"
+  },
+  {
+    "nome": "kubectl",
+    "id": "Kubernetes.kubectl",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "CLI para Kubernetes"
+  },
+  {
+    "nome": "Azure CLI",
+    "id": "Microsoft.AzureCLI",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "CLI da plataforma Microsoft Azure"
+  },
+  {
+    "nome": "AWS CLI",
+    "id": "Amazon.AWSCLI",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "CLI da Amazon Web Services"
+  },
+  {
+    "nome": "Google Cloud CLI",
+    "id": "Google.CloudSDK",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "CLI do Google Cloud Platform"
+  },
+  {
+    "nome": "VirtualBox",
+    "id": "Oracle.VirtualBox",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Virtualização de sistemas operacionais"
+  },
+  {
+    "nome": "VMware Workstation Player",
+    "id": "VMware.WorkstationPlayer",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Virtualização gratuita da VMware"
+  },
+  {
+    "nome": "Vagrant",
+    "id": "Hashicorp.Vagrant",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Ambientes de desenvolvimento virtualizados"
+  },
+  {
+    "nome": "nvm-windows",
+    "id": "CoreyButler.NVMforWindows",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de versões do Node.js"
+  },
+  {
+    "nome": "pyenv-win",
+    "id": "pyenv-win.pyenv-win",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de versões do Python"
+  },
+  {
+    "nome": "Ruby",
+    "id": "RubyInstallerTeam.Ruby",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Linguagem de programação Ruby"
+  },
+  {
+    "nome": "Julia",
+    "id": "Julialang.Julia",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Linguagem para computação científica"
+  },
+  {
+    "nome": "Deno",
+    "id": "DenoLand.Deno",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime JavaScript/TypeScript moderno"
+  },
+  {
+    "nome": "Bun",
+    "id": "Oven-sh.Bun",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime e bundler JavaScript rápido"
+  },
+  {
+    "nome": "Cursor",
+    "id": "Anysphere.Cursor",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de código com IA integrada"
+  },
+  {
+    "nome": "Zed",
+    "id": "Zed.Zed",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de código ultrarrápido"
+  },
+  {
+    "nome": "MongoDB Compass",
+    "id": "MongoDB.Compass.Full",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "GUI para MongoDB"
+  },
+  {
+    "nome": "Redis Insight",
+    "id": "RedisLabs.RedisInsight",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "GUI para Redis"
+  },
+  {
+    "nome": "TablePlus",
+    "id": "TablePlus.TablePlus",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente de banco de dados moderno"
+  },
+  {
+    "nome": "Notepad2-mod",
+    "id": "XhmikosR.Notepad2-mod",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de texto com syntax highlight"
+  },
+  {
+    "nome": "Steam",
+    "id": "Valve.Steam",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Plataforma de jogos"
+  },
+  {
+    "nome": "Epic Games Launcher",
+    "id": "EpicGames.EpicGamesLauncher",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Loja da Epic Games"
+  },
+  {
+    "nome": "GOG Galaxy",
+    "id": "GOG.Galaxy",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Plataforma GOG"
+  },
+  {
+    "nome": "Ubisoft Connect",
+    "id": "Ubisoft.Connect",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Plataforma de jogos Ubisoft"
+  },
+  {
+    "nome": "EA App",
+    "id": "ElectronicArts.EADesktop",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Launcher da Electronic Arts"
+  },
+  {
+    "nome": "Battle.net",
+    "id": "Blizzard.BattleNet",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Plataforma Blizzard"
+  },
+  {
+    "nome": "Playnite",
+    "id": "Playnite.Playnite",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Biblioteca unificada de jogos"
+  },
+  {
+    "nome": "Heroic Games Launcher",
+    "id": "HeroicGamesLauncher.HeroicGamesLauncher",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Launcher para Epic/GOG no Linux/Windows"
+  },
+  {
+    "nome": "itch.io",
+    "id": "itch.itch",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Plataforma de jogos indie"
+  },
+  {
+    "nome": "RetroArch",
+    "id": "Libretro.RetroArch",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador multi-sistema"
+  },
+  {
+    "nome": "PPSSPP",
+    "id": "PPSSPPTeam.PPSSPP",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador de PSP"
+  },
+  {
+    "nome": "Dolphin Emulator",
+    "id": "DolphinEmu.Dolphin",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador de GameCube e Wii"
+  },
+  {
+    "nome": "PCSX2",
+    "id": "PCSX2Team.PCSX2",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador de PlayStation 2"
+  },
+  {
+    "nome": "RPCS3",
+    "id": "rpcs3.rpcs3",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador de PlayStation 3"
+  },
+  {
+    "nome": "Visual C++ 2022 x64",
+    "id": "Microsoft.VCRedist.2022.x64",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime VC++ 2022 64-bit"
+  },
+  {
+    "nome": "Visual C++ 2022 x86",
+    "id": "Microsoft.VCRedist.2022.x86",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime VC++ 2022 32-bit"
+  },
+  {
+    "nome": "Visual C++ 2019 x64",
+    "id": "Microsoft.VCRedist.2019.x64",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime VC++ 2019 64-bit"
+  },
+  {
+    "nome": "Visual C++ 2015-2019 x86",
+    "id": "Microsoft.VCRedist.2015+.x86",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime VC++ 2015-2019 32-bit"
+  },
+  {
+    "nome": "DirectX Runtime",
+    "id": "Microsoft.DirectX",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime DirectX"
+  },
+  {
+    "nome": "XNA Framework 4.0",
+    "id": "Microsoft.XNARedist",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Runtime XNA para jogos antigos"
+  },
+  {
+    "nome": "DXVK",
+    "id": "doitsujin.DXVK",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Camada DirectX para Vulkan"
+  },
+  {
+    "nome": "OpenAL",
+    "id": "OpenAL.OpenAL",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Biblioteca de áudio 3D"
+  },
+  {
+    "nome": "AMD Chipset Drivers",
+    "id": "AMD.AmdChipsetSoftware",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Drivers de chipset AMD"
+  },
+  {
+    "nome": "Intel Driver Support",
+    "id": "Intel.IntelDriverAndSupportAssistant",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Assistente de drivers Intel"
+  },
+  {
+    "nome": "NVIDIA App",
+    "id": "Nvidia.NvidiaApp",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "App da NVIDIA para drivers e overlay"
+  },
+  {
+    "nome": "Realtek Audio Driver",
+    "id": "RealtekSemiconductor.RealtekAudioDriver",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Driver de áudio Realtek"
+  },
+  {
+    "nome": "Corsair iCUE",
+    "id": "Corsair.iCUE.4",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software de controle Corsair"
+  },
+  {
+    "nome": "Logitech G Hub",
+    "id": "Logitech.GHUB",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software para periféricos Logitech G"
+  },
+  {
+    "nome": "Razer Synapse",
+    "id": "RazerInc.RazerSynapse",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software para periféricos Razer"
+  },
+  {
+    "nome": "SteelSeries GG",
+    "id": "SteelSeries.GG",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software para periféricos SteelSeries"
+  },
+  {
+    "nome": "ASUS Armoury Crate",
+    "id": "ASUS.ArmouryCrate",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software ASUS para hardware e RGB"
+  },
+  {
+    "nome": "Gigabyte Control Center",
+    "id": "Gigabyte.ControlCenter",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software Gigabyte para hardware"
+  },
+  {
+    "nome": "MSI Center",
+    "id": "MSI.MSICenter",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software MSI para hardware e RGB"
+  },
+  {
+    "nome": "OpenRGB",
+    "id": "OpenRGB.OpenRGB",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle de RGB open source"
+  },
+  {
+    "nome": "SignalRGB",
+    "id": "WhirlwindFX.SignalRgb",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle de RGB multiplataforma"
+  },
+  {
+    "nome": "Xbox Accessories",
+    "id": "Microsoft.XboxAccessories",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Configuração de controles Xbox"
+  },
+  {
+    "nome": "DS4Windows",
+    "id": "Ryochan7.DS4Windows",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Controle PS4/PS5 no Windows"
+  },
+  {
+    "nome": "BleachBit",
+    "id": "BleachBit.BleachBit",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Limpeza avançada de disco"
+  },
+  {
+    "nome": "Wise Disk Cleaner",
+    "id": "WiseCleaner.WiseDiskCleaner",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Limpeza de disco e otimização"
+  },
+  {
+    "nome": "Wise Registry Cleaner",
+    "id": "WiseCleaner.WiseRegistryCleaner",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Limpeza do registro do Windows"
+  },
+  {
+    "nome": "IObit Uninstaller",
+    "id": "IObit.IObitUninstaller",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Desinstalador com limpeza de resíduos"
+  },
+  {
+    "nome": "Privazer",
+    "id": "PrivaZer.PrivaZer",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Limpeza profunda de privacidade"
+  },
+  {
+    "nome": "Glary Utilities",
+    "id": "Glarysoft.GlaryUtilities",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suite de otimização e limpeza"
+  },
+  {
+    "nome": "Auslogics BoostSpeed",
+    "id": "Auslogics.BoostSpeed",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Otimizador de desempenho do Windows"
+  },
+  {
+    "nome": "Defraggler",
+    "id": "Piriform.Defraggler",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Desfragmentador de disco"
+  },
+  {
+    "nome": "O&O Defrag Free",
+    "id": "OO-Software.O&ODefrag",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Desfragmentador avançado gratuito"
+  },
+  {
+    "nome": "Wise Care 365",
+    "id": "WiseCleaner.WiseCare365",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Otimizador completo do sistema"
+  },
+  {
+    "nome": "Ollama",
+    "id": "Ollama.Ollama",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Rode modelos de IA localmente"
+  },
+  {
+    "nome": "LM Studio",
+    "id": "ElementLabs.LMStudio",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Interface para modelos de linguagem locais"
+  },
+  {
+    "nome": "Jan AI",
+    "id": "Homebrew.Jan",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "App desktop para LLMs open source"
+  },
+  {
+    "nome": "Recall (PowerShell AI)",
+    "id": "mikehicks.recall",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Ferramenta de recall com IA"
+  },
+  {
+    "nome": "Trello",
+    "id": "Atlassian.Trello",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciamento de tarefas em kanban"
+  },
+  {
+    "nome": "Todoist",
+    "id": "Doist.Todoist",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Lista de tarefas e produtividade"
+  },
+  {
+    "nome": "Toggl Track",
+    "id": "Toggl.TogglTrack",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Rastreamento de tempo e produtividade"
+  },
+  {
+    "nome": "Anki",
+    "id": "Anki.Anki",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Flashcards com repetição espaçada"
+  },
+  {
+    "nome": "Warp Terminal",
+    "id": "Warp.Warp",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Terminal moderno com IA integrada"
+  },
+  {
+    "nome": "Miro",
+    "id": "Miro.Miro",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Quadro branco colaborativo online"
+  },
+  {
+    "nome": "Loom",
+    "id": "Loom.Loom",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gravação de tela e vídeos rápidos"
+  },
+  {
+    "nome": "Clockify",
+    "id": "Clockify.Clockify",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Rastreamento gratuito de horas trabalhadas"
+  },
+  {
+    "nome": "VirtualBox Extension Pack",
+    "id": "Oracle.VirtualBox.ExtensionPack",
+    "categoria": "Virtualização",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Extensões do VirtualBox"
+  },
+  {
+    "nome": "Windows Subsystem Android",
+    "id": "Microsoft.WindowsSubsystemForAndroid",
+    "categoria": "Virtualização",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Subsistema Android no Windows 11"
+  },
+  {
+    "nome": "QEMU",
+    "id": "QEMU.QEMU",
+    "categoria": "Virtualização",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador e virtualizador open source"
+  },
+  {
+    "nome": "Chocolatey",
+    "id": "Chocolatey.Chocolatey",
+    "categoria": "Gerenc. Pacotes",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de pacotes para Windows"
+  },
+  {
+    "nome": "Scoop",
+    "id": "ScoopInstaller.Scoop",
+    "categoria": "Gerenc. Pacotes",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de pacotes via linha de comando"
+  },
+  {
+    "nome": "Zoom It",
+    "id": "Microsoft.Sysinternals.ZoomIt",
+    "categoria": "Apresentações",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Zoom e anotações em tela para apresentações"
+  },
+  {
+    "nome": "OBS Studio NDI Plugin",
+    "id": "obs-ndi.obs-ndi",
+    "categoria": "Apresentações",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Plugin NDI para OBS Studio"
+  },
+  {
+    "nome": "Prezi",
+    "id": "Prezi.Prezi",
+    "categoria": "Apresentações",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Apresentações dinÃ¢micas em nuvem"
+  },
+  {
+    "nome": "Thorium Browser",
+    "id": "Alex313031.Thorium",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Chromium extremamente rápido"
+  },
+  {
+    "nome": "Supermium",
+    "id": "win32ss.Supermium",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Chromium compatível com PCs mais antigos"
+  },
+  {
+    "nome": "Floorp",
+    "id": "Ablaze.Floorp",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Fork do Firefox focado em privacidade e customização"
+  },
+  {
+    "nome": "Midori",
+    "id": "Midori.Midori",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador leve e open-source"
+  },
+  {
+    "nome": "Maxthon",
+    "id": "Maxthon.Maxthon",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador com ferramentas de nuvem integradas"
+  },
+  {
+    "nome": "SRWare Iron",
+    "id": "SRWare.Iron",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Chromium sem rastreamento do Google"
+  },
+  {
+    "nome": "Epic Privacy Browser",
+    "id": "HiddenData.EpicPrivacyBrowser",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador focado estritamente em privacidade"
+  },
+  {
+    "nome": "DuckDuckGo Browser",
+    "id": "DuckDuckGo.DesktopBrowser",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Navegador oficial do DuckDuckGo"
+  },
+  {
+    "nome": "SeaMonkey",
+    "id": "Mozilla.SeaMonkey",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suíte de internet completa clássica"
+  },
+  {
+    "nome": "Cent Browser",
+    "id": "CentStudio.CentBrowser",
+    "categoria": "Navegadores",
+    "tipo": "local",
+    "url": null,
+    "silentArgs": null,
+    "localPath": "C:\\Users\\Usuario\\Desktop\\KIt C\\Portatil\\CSharp\\offline\\CentStudio_CentBrowser\\Cent Browser_5.3.1184.25_User_X64_exe_en-US.exe",
+    "descricao": "Chromium com várias ferramentas extras"
+  },
+  {
+    "nome": "Slimjet",
+    "id": "FlashPeak.Slimjet",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Chromium rápido com bloqueador de anúncios"
+  },
+  {
+    "nome": "HaoZip",
+    "id": "Ruichuang.HaoZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador popular na Ásia"
+  },
+  {
+    "nome": "B1 Free Archiver",
+    "id": "CatalinaGroup.B1FreeArchiver",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suporte a formatos B1 e populares"
+  },
+  {
+    "nome": "IZArc",
+    "id": "IvanZahariev.IZArc",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Suporta uma enorme variedade de formatos"
+  },
+  {
+    "nome": "Ashampoo ZIP Free",
+    "id": "Ashampoo.ZIPFree",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Alternativa moderna e gratuita"
+  },
+  {
+    "nome": "Express Zip",
+    "id": "NCHSoftware.ExpressZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador rápido e eficiente"
+  },
+  {
+    "nome": "PowerArchiver",
+    "id": "ConeXware.PowerArchiver",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compressor premium e seguro"
+  },
+  {
+    "nome": "ZipGenius",
+    "id": "ZipGenius.ZipGenius",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Compactador gratuito italiano clássico"
+  },
+  {
+    "nome": "TestDisk",
+    "id": "CGSecurity.TestDisk",
+    "categoria": "Recuperação de Dados",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Recuperação de partições e setores de boot"
+  },
+  {
+    "nome": "PhotoRec",
+    "id": "CGSecurity.PhotoRec",
+    "categoria": "Recuperação de Dados",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Recuperação profunda de arquivos e mídia"
+  },
+  {
+    "nome": "MiniTool Power Data Recovery",
+    "id": "MiniTool.PowerDataRecovery",
+    "categoria": "Recuperação de Dados",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Solução avançada de recuperação"
+  },
+  {
+    "nome": "Nmap",
+    "id": "Insecure.Nmap",
+    "categoria": "Rede & Wi-Fi",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Mapeamento de rede e auditoria de segurança"
+  },
+  {
+    "nome": "Fing",
+    "id": "Fing.FingDesktop",
+    "categoria": "Rede & Wi-Fi",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Scanner de rede e detecção de dispositivos"
+  },
+  {
+    "nome": "Advanced IP Scanner",
+    "id": "Famatech.AdvancedIPScanner",
+    "categoria": "Rede & Wi-Fi",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Scanner rápido de IPs locais"
+  },
+  {
+    "nome": "Blender",
+    "id": "BlenderFoundation.Blender",
+    "categoria": "Design & 3D",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Modelagem e animação 3D open-source"
+  },
+  {
+    "nome": "VNC Viewer",
+    "id": "RealVNC.VNCViewer",
+    "categoria": "Acesso Remoto",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Acesso remoto padrão VNC"
+  },
+  {
+    "nome": "pgAdmin 4",
+    "id": "PostgreSQL.pgAdmin",
+    "categoria": "Bancos de Dados",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gestão avançada de PostgreSQL"
+  },
+  {
+    "nome": "MySQL Workbench",
+    "id": "Oracle.MySQLWorkbench",
+    "categoria": "Bancos de Dados",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Ferramenta oficial para MySQL"
+  },
+  {
+    "nome": "BlueStacks",
+    "id": "BlueStacks.BlueStacks",
+    "categoria": "Emuladores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador Android líder de mercado"
+  },
+  {
+    "nome": "LDPlayer",
+    "id": "XUANZHI.LDPlayer",
+    "categoria": "Emuladores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Emulador Android focado em performance"
+  },
+  {
+    "nome": "DaVinci Resolve",
+    "id": "BlackmagicDesign.DaVinciResolve",
+    "categoria": "Edição de Vídeo",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de vídeo profissional e color grading"
+  },
+  {
+    "nome": "CapCut",
+    "id": "Bytedance.CapCut",
+    "categoria": "Edição de Vídeo",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Editor de vídeo popular para criadores"
+  },
+  {
+    "nome": "Reaper",
+    "id": "Cockos.REAPER",
+    "categoria": "Áudio & Produção",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "DAW leve e profissional para produção musical"
+  },
+  {
+    "nome": "LMMS",
+    "id": "LMMS.LMMS",
+    "categoria": "Áudio & Produção",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Alternativa open-source ao FL Studio"
+  },
+  {
+    "nome": "MuseScore",
+    "id": "MuseScore.MuseScore",
+    "categoria": "Áudio & Produção",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Software de notação musical"
+  },
+  {
+    "nome": "Bitdefender Antivirus Free",
+    "id": "Bitdefender.AntivirusFree",
+    "categoria": "Antivírus & Malware",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Proteção sólida e silenciosa"
+  },
+  {
+    "nome": "Unity Hub",
+    "id": "Unity.UnityHub",
+    "categoria": "Desenvolvimento de Jogos",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Gerenciador de motores Unity"
+  },
+  {
+    "nome": "Godot Engine",
+    "id": "GodotEngine.GodotEngine",
+    "categoria": "Desenvolvimento de Jogos",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Motor de jogos 2D/3D open-source incrível"
+  },
+  {
+    "nome": "Google Drive",
+    "id": "Google.Drive",
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Armazenamento em nuvem do Google"
+  },
+  {
+    "nome": "Dropbox",
+    "id": "Dropbox.Dropbox",
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Sincronização rápida de arquivos"
+  },
+  {
+    "nome": "Nextcloud",
+    "id": "Nextcloud.NextcloudDesktop",
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Cliente desktop Nextcloud open-source"
+  },
+  {
+    "nome": "MEGA",
+    "id": "MEGA.MEGAsync",
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Nuvem com foco em privacidade e criptografia"
+  },
+  {
+    "nome": "Evernote",
+    "id": "Evernote.Evernote",
+    "categoria": "Anotações & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "App clássico de anotações sincronizadas"
+  },
+  {
+    "nome": "Winamp",
+    "id": "Radionomy.Winamp",
+    "categoria": "Players de Mídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Player clássico de música"
+  },
+  {
+    "nome": "Macrium Reflect Free",
+    "id": "Macrium.Reflect.Free",
+    "categoria": "Backup & Clonagem",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Clonagem de disco e criação de imagens"
+  },
+  {
+    "nome": "AOMEI Backupper",
+    "id": "AOMEI.Backupper",
+    "categoria": "Backup & Clonagem",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Solução fácil para backup de sistema"
+  },
+  {
+    "nome": "FreeFileSync",
+    "id": "FreeFileSync.FreeFileSync",
+    "categoria": "Backup & Clonagem",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Sincronização de pastas e backup"
+  },
+  {
+    "nome": "Tailscale",
+    "id": "Tailscale.Tailscale",
+    "categoria": "VPN & Privacidade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Rede privada mesh com WireGuard"
+  },
+  {
+    "nome": "Cinebench R23",
+    "id": "Maxon.CinebenchR23",
+    "categoria": "Benchmarking & Stress",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Teste de performance brutal para processadores"
+  },
+  {
+    "nome": "Prime95",
+    "id": "GIMPS.Prime95",
+    "categoria": "Benchmarking & Stress",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "localPath": null,
+    "descricao": "Teste de estabilidade severo para CPU/RAM"
+  }
+]

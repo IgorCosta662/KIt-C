@@ -1,0 +1,3362 @@
+[
+  {
+    "nome": "Google Chrome",
+    "id": "Google.Chrome",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador web do Google",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-chrome.png"
+  },
+  {
+    "nome": "Mozilla Firefox",
+    "id": "Mozilla.Firefox",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador web da Mozilla",
+    "iconUrl": "https://img.icons8.com/color/48/firefox.png"
+  },
+  {
+    "nome": "Mozilla Firefox ESR",
+    "id": "Mozilla.Firefox.ESR",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Firefox com suporte estendido",
+    "iconUrl": "https://img.icons8.com/color/48/firefox.png"
+  },
+  {
+    "nome": "Brave Browser",
+    "id": "Brave.Brave",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador focado em privacidade",
+    "iconUrl": "https://img.icons8.com/color/48/brave-web-browser.png"
+  },
+  {
+    "nome": "Microsoft Edge",
+    "id": "Microsoft.Edge",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador da Microsoft",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft-edge.png"
+  },
+  {
+    "nome": "Opera",
+    "id": "Opera.Opera",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador com VPN integrada",
+    "iconUrl": "https://img.icons8.com/color/48/opera.png"
+  },
+  {
+    "nome": "Opera GX",
+    "id": "Opera.OperaGX",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador gamer da Opera",
+    "iconUrl": "https://img.icons8.com/color/48/opera-gx.png"
+  },
+  {
+    "nome": "Vivaldi",
+    "id": "VivaldiTechnologies.Vivaldi",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador altamente customizável",
+    "iconUrl": "https://img.icons8.com/color/48/vivaldi.png"
+  },
+  {
+    "nome": "Tor Browser",
+    "id": "TorProject.TorBrowser",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador anônimo Tor",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "nome": "Waterfox",
+    "id": "Waterfox.Waterfox",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Firefox alternativo focado em privacidade",
+    "iconUrl": "https://logo.clearbit.com/waterfox.net"
+  },
+  {
+    "nome": "LibreWolf",
+    "id": "LibreWolf.LibreWolf",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Firefox hardened focado em privacidade",
+    "iconUrl": "https://logo.clearbit.com/librewolf.net"
+  },
+  {
+    "nome": "Pale Moon",
+    "id": "MoonchildProductions.PaleMoon",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador fork do Firefox clássico",
+    "iconUrl": "https://logo.clearbit.com/palemoon.org"
+  },
+  {
+    "nome": "Yandex Browser",
+    "id": "Yandex.Browser",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Navegador da Yandex com proteções",
+    "iconUrl": "https://logo.clearbit.com/yandex.com"
+  },
+  {
+    "nome": "Chromium",
+    "id": "Hibbiki.Chromium",
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Versão open source do Chrome",
+    "iconUrl": "https://logo.clearbit.com/chromium.org"
+  },
+  {
+    "nome": "7-Zip",
+    "id": "7zip.7zip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Compactador gratuito e open source",
+    "iconUrl": "https://img.icons8.com/color/48/7zip.png"
+  },
+  {
+    "nome": "WinRAR",
+    "id": "RARLab.WinRAR",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Compactador RAR/ZIP",
+    "iconUrl": "https://img.icons8.com/color/48/winrar.png"
+  },
+  {
+    "nome": "PeaZip",
+    "id": "GiorgioTani.PeaZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Compactador open source",
+    "iconUrl": "https://img.icons8.com/color/48/peazip.png"
+  },
+  {
+    "nome": "WinZip",
+    "id": "Corel.WinZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Clássico compactador ZIP",
+    "iconUrl": "https://img.icons8.com/color/48/winzip.png"
+  },
+  {
+    "nome": "Bandizip",
+    "id": "Bandisoft.Bandizip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Compactador rápido e moderno",
+    "iconUrl": "https://img.icons8.com/color/48/bandizip.png"
+  },
+  {
+    "nome": "NanaZip",
+    "id": "M2Team.NanaZip",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Fork do 7-Zip com interface moderna",
+    "iconUrl": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "nome": "Zipware",
+    "id": "Zipware.Zipware",
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Compactador gratuito simples",
+    "iconUrl": "https://logo.clearbit.com/zipware.org"
+  },
+  {
+    "nome": "VLC Media Player",
+    "id": "VideoLAN.VLC",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Player multimídia completo",
+    "iconUrl": "https://img.icons8.com/color/48/vlc.png"
+  },
+  {
+    "nome": "MPC-HC",
+    "id": "clsid2.mpc-hc",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Media Player Classic HC",
+    "iconUrl": "https://logo.clearbit.com/mpc-hc.org"
+  },
+  {
+    "nome": "PotPlayer",
+    "id": "Daum.PotPlayer",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Player de vídeo avançado",
+    "iconUrl": "https://img.icons8.com/color/48/video-player.png"
+  },
+  {
+    "nome": "Spotify",
+    "id": "Spotify.Spotify",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Streaming de música",
+    "iconUrl": "https://img.icons8.com/color/48/spotify--v1.png"
+  },
+  {
+    "nome": "iTunes",
+    "id": "Apple.iTunes",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Player e loja da Apple",
+    "iconUrl": "https://img.icons8.com/color/48/itunes.png"
+  },
+  {
+    "nome": "foobar2000",
+    "id": "PeterPawlowski.foobar2000",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Player de áudio avançado",
+    "iconUrl": "https://logo.clearbit.com/foobar2000.org"
+  },
+  {
+    "nome": "AIMP",
+    "id": "AIMP.AIMP",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Player de áudio com equalizador",
+    "iconUrl": "https://logo.clearbit.com/aimp.ru"
+  },
+  {
+    "nome": "Audacity",
+    "id": "Audacity.Audacity",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de áudio gratuito",
+    "iconUrl": "https://img.icons8.com/color/48/audacity.png"
+  },
+  {
+    "nome": "HandBrake",
+    "id": "HandBrake.HandBrake",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Conversor de vídeo open source",
+    "iconUrl": "https://logo.clearbit.com/handbrake.fr"
+  },
+  {
+    "nome": "OBS Studio",
+    "id": "OBSProject.OBSStudio",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gravação e streaming de tela",
+    "iconUrl": "https://img.icons8.com/fluency/48/obs-studio.png"
+  },
+  {
+    "nome": "DaVinci Resolve",
+    "id": "Blackmagic.DaVinciResolve",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de vídeo profissional",
+    "iconUrl": "https://img.icons8.com/color/48/davinci-resolve.png"
+  },
+  {
+    "nome": "GIMP",
+    "id": "GIMP.GIMP",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de imagens gratuito",
+    "iconUrl": "https://img.icons8.com/color/48/gimp.png"
+  },
+  {
+    "nome": "Inkscape",
+    "id": "Inkscape.Inkscape",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de vetores",
+    "iconUrl": "https://img.icons8.com/color/48/inkscape.png"
+  },
+  {
+    "nome": "Krita",
+    "id": "KDE.Krita",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Pintura digital",
+    "iconUrl": "https://img.icons8.com/color/48/drawing.png"
+  },
+  {
+    "nome": "IrfanView",
+    "id": "IrfanSkiljan.IrfanView",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Visualizador de imagens rápido",
+    "iconUrl": "https://logo.clearbit.com/irfanview.com"
+  },
+  {
+    "nome": "K-Lite Codec Pack",
+    "id": "CodecGuide.K-LiteCodecPack.Full",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Pacote de codecs para vídeo/áudio",
+    "iconUrl": "https://logo.clearbit.com/codecguide.com"
+  },
+  {
+    "nome": "VirtualDub2",
+    "id": "VirtualDub2.VirtualDub2",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de vídeo leve",
+    "iconUrl": "https://logo.clearbit.com/virtualdub2.com"
+  },
+  {
+    "nome": "Kdenlive",
+    "id": "KDE.Kdenlive",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de vídeo open source",
+    "iconUrl": "https://img.icons8.com/color/48/video-editing.png"
+  },
+  {
+    "nome": "Shotcut",
+    "id": "Meltytech.Shotcut",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de vídeo gratuito",
+    "iconUrl": "https://logo.clearbit.com/shotcut.org"
+  },
+  {
+    "nome": "MediaInfo",
+    "id": "MediaArea.MediaInfo",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Análise técnica de arquivos de mídia",
+    "iconUrl": "https://logo.clearbit.com/mediaarea.net"
+  },
+  {
+    "nome": "MKVToolNix",
+    "id": "MKVToolNix.MKVToolNix",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Manipulação de arquivos MKV",
+    "iconUrl": "https://logo.clearbit.com/mkvtoolnix.download"
+  },
+  {
+    "nome": "Subtitle Edit",
+    "id": "Nikse.SubtitleEdit",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de legendas",
+    "iconUrl": "https://logo.clearbit.com/nikse.dk"
+  },
+  {
+    "nome": "Lightshot",
+    "id": "Skillbrains.Lightshot",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Captura de tela com anotações rápidas",
+    "iconUrl": "https://logo.clearbit.com/app.prntscr.com"
+  },
+  {
+    "nome": "LosslessCut",
+    "id": "mifi.lossless-cut",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Corte de vídeo sem recodificação",
+    "iconUrl": "https://logo.clearbit.com/mifi.no"
+  },
+  {
+    "nome": "Figma",
+    "id": "Figma.Figma",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Design de interfaces e prototipagem",
+    "iconUrl": "https://img.icons8.com/color/48/figma.png"
+  },
+  {
+    "nome": "Deezer",
+    "id": "Deezer.Deezer",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Streaming de música Deezer",
+    "iconUrl": "https://img.icons8.com/color/48/deezer.png"
+  },
+  {
+    "nome": "Plex Media Player",
+    "id": "Plex.PlexMediaPlayer",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Player do servidor Plex",
+    "iconUrl": "https://img.icons8.com/color/48/plex.png"
+  },
+  {
+    "nome": "Stremio",
+    "id": "Stremio.Stremio",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Streaming de filmes e séries",
+    "iconUrl": "https://logo.clearbit.com/stremio.com"
+  },
+  {
+    "nome": "Winamp",
+    "id": "Winamp.Winamp",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Clássico player de mídia",
+    "iconUrl": "https://img.icons8.com/color/48/winamp.png"
+  },
+  {
+    "nome": "FFmpeg",
+    "id": "Gyan.FFmpeg",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite de conversão de mídia via linha de comando",
+    "iconUrl": "https://img.icons8.com/color/48/ffmpeg.png"
+  },
+  {
+    "nome": "yt-dlp",
+    "id": "yt-dlp.yt-dlp",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Download de vídeos do YouTube e outros",
+    "iconUrl": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "nome": "Captura",
+    "id": "MathewSachin.Captura",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gravação de tela leve",
+    "iconUrl": "https://logo.clearbit.com/mathewsachin.github.io"
+  },
+  {
+    "nome": "Adobe Creative Cloud",
+    "id": "Adobe.CreativeCloud",
+    "categoria": "Multimídia",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite de aplicativos Adobe",
+    "iconUrl": "https://img.icons8.com/color/48/adobe-creative-cloud--v1.png"
+  },
+  {
+    "nome": "Telegram Desktop",
+    "id": "Telegram.TelegramDesktop",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Mensagens seguras",
+    "iconUrl": "https://img.icons8.com/color/48/telegram-app.png"
+  },
+  {
+    "nome": "Discord",
+    "id": "Discord.Discord",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Chat para gamers e comunidades",
+    "iconUrl": "https://img.icons8.com/color/48/discord-logo.png"
+  },
+  {
+    "nome": "WhatsApp",
+    "id": "WhatsApp.WhatsApp",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Mensagens do WhatsApp para desktop",
+    "iconUrl": "https://img.icons8.com/color/48/whatsapp--v1.png"
+  },
+  {
+    "nome": "Zoom",
+    "id": "Zoom.Zoom",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Videoconferência",
+    "iconUrl": "https://img.icons8.com/color/48/zoom.png"
+  },
+  {
+    "nome": "Microsoft Teams",
+    "id": "Microsoft.Teams",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Colaboração e reuniões",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft-teams.png"
+  },
+  {
+    "nome": "Skype",
+    "id": "Microsoft.Skype",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Chamadas e mensagens",
+    "iconUrl": "https://img.icons8.com/color/48/skype--v1.png"
+  },
+  {
+    "nome": "Slack",
+    "id": "SlackTechnologies.Slack",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Comunicação para equipes",
+    "iconUrl": "https://img.icons8.com/color/48/slack-new.png"
+  },
+  {
+    "nome": "Signal",
+    "id": "OpenWhisperSystems.Signal",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Mensagens criptografadas",
+    "iconUrl": "https://img.icons8.com/color/48/signal-app.png"
+  },
+  {
+    "nome": "Thunderbird",
+    "id": "Mozilla.Thunderbird",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente de e-mail da Mozilla",
+    "iconUrl": "https://img.icons8.com/color/48/thunderbird.png"
+  },
+  {
+    "nome": "mIRC",
+    "id": "mIRC.mIRC",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente IRC",
+    "iconUrl": "https://img.icons8.com/color/48/mirc.png"
+  },
+  {
+    "nome": "Viber",
+    "id": "Viber.Viber",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Mensagens e chamadas Viber",
+    "iconUrl": "https://img.icons8.com/color/48/viber.png"
+  },
+  {
+    "nome": "RustDesk",
+    "id": "RustDesk.RustDesk",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Acesso remoto open source",
+    "iconUrl": "https://img.icons8.com/color/48/rust.png"
+  },
+  {
+    "nome": "Google Chat",
+    "id": "Google.Chat",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Chat corporativo do Google",
+    "iconUrl": "https://img.icons8.com/color/48/golang.png"
+  },
+  {
+    "nome": "Webex",
+    "id": "Cisco.Webex",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Videoconferência Cisco",
+    "iconUrl": "https://img.icons8.com/color/48/cisco-webex-meetings.png"
+  },
+  {
+    "nome": "Element (Matrix)",
+    "id": "Element.Element",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente Matrix descentralizado",
+    "iconUrl": "https://logo.clearbit.com/element.io"
+  },
+  {
+    "nome": "eM Client",
+    "id": "eMClient.eMClient",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente de e-mail moderno",
+    "iconUrl": "https://logo.clearbit.com/emclient.com"
+  },
+  {
+    "nome": "Mailbird",
+    "id": "Mailbird.Mailbird",
+    "categoria": "Comunicação",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente de e-mail elegante",
+    "iconUrl": "https://logo.clearbit.com/getmailbird.com"
+  },
+  {
+    "nome": "LibreOffice",
+    "id": "TheDocumentFoundation.LibreOffice",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite de escritório gratuita",
+    "iconUrl": "https://img.icons8.com/color/48/libreoffice.png"
+  },
+  {
+    "nome": "Adobe Acrobat Reader",
+    "id": "Adobe.Acrobat.Reader.64-bit",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Leitor de PDF da Adobe",
+    "iconUrl": "https://img.icons8.com/color/48/adobe-acrobat--v1.png"
+  },
+  {
+    "nome": "Foxit PDF Reader",
+    "id": "Foxit.FoxitReader",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Leitor de PDF leve",
+    "iconUrl": "https://logo.clearbit.com/foxit.com"
+  },
+  {
+    "nome": "SumatraPDF",
+    "id": "SumatraPDF.SumatraPDF",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Leitor de PDF minimalista",
+    "iconUrl": "https://logo.clearbit.com/sumatrapdfreader.org"
+  },
+  {
+    "nome": "Notepad++",
+    "id": "Notepad++.Notepad++",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de texto avançado",
+    "iconUrl": "https://img.icons8.com/color/48/notepad-plus-plus.png"
+  },
+  {
+    "nome": "WPS Office",
+    "id": "Kingsoft.WPSOffice",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite Office gratuita compatível com MS",
+    "iconUrl": "https://img.icons8.com/color/48/wps-office.png"
+  },
+  {
+    "nome": "OnlyOffice",
+    "id": "ONLYOFFICE.DesktopEditors",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite de escritório online/offline",
+    "iconUrl": "https://img.icons8.com/color/48/onlyoffice.png"
+  },
+  {
+    "nome": "Obsidian",
+    "id": "Obsidian.Obsidian",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Notas em Markdown com links",
+    "iconUrl": "https://img.icons8.com/color/48/knowledge-sharing.png"
+  },
+  {
+    "nome": "Notion",
+    "id": "Notion.Notion",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Notas, tarefas e wiki",
+    "iconUrl": "https://img.icons8.com/color/48/notion--v1.png"
+  },
+  {
+    "nome": "Typora",
+    "id": "Typora.Typora",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor Markdown minimalista",
+    "iconUrl": "https://logo.clearbit.com/typora.io"
+  },
+  {
+    "nome": "Joplin",
+    "id": "Joplin.Joplin",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Notas e listas com sincronização",
+    "iconUrl": "https://logo.clearbit.com/joplinapp.org"
+  },
+  {
+    "nome": "PDF24 Creator",
+    "id": "geek-soft.PDF24Creator",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Criação e edição de PDF gratuita",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "nome": "PDFCreator",
+    "id": "pdfforge.PDFCreator",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Impressora PDF virtual",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "nome": "FreeOffice",
+    "id": "SoftMaker.FreeOffice",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite de escritório gratuita SoftMaker",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft-office-2019.png"
+  },
+  {
+    "nome": "MarkText",
+    "id": "marktext.marktext",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor Markdown WYSIWYG",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft-office-2019.png"
+  },
+  {
+    "nome": "Logseq",
+    "id": "Logseq.Logseq",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Notas e base de conhecimento",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft-office-2019.png"
+  },
+  {
+    "nome": "Calibre",
+    "id": "calibre.calibre",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de e-books",
+    "iconUrl": "https://logo.clearbit.com/calibre-ebook.com"
+  },
+  {
+    "nome": "Zotero",
+    "id": "Zotero.Zotero",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de referências bibliográficas",
+    "iconUrl": "https://logo.clearbit.com/zotero.org"
+  },
+  {
+    "nome": "draw.io",
+    "id": "JGraph.Draw",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Diagramas e fluxogramas",
+    "iconUrl": "https://logo.clearbit.com/drawio.com"
+  },
+  {
+    "nome": "Okular",
+    "id": "KDE.Okular",
+    "categoria": "Office",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Leitor de documentos KDE",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft-office-2019.png"
+  },
+  {
+    "nome": "CCleaner",
+    "id": "Piriform.CCleaner",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Limpeza e otimização do sistema",
+    "iconUrl": "https://img.icons8.com/color/48/ccleaner.png"
+  },
+  {
+    "nome": "CPU-Z",
+    "id": "CPUID.CPU-Z",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Informações do processador",
+    "iconUrl": "https://img.icons8.com/color/48/processor.png"
+  },
+  {
+    "nome": "CrystalDiskInfo",
+    "id": "CrystalDewWorld.CrystalDiskInfo",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Monitoramento de discos",
+    "iconUrl": "https://img.icons8.com/color/48/hdd.png"
+  },
+  {
+    "nome": "CrystalDiskMark",
+    "id": "CrystalDewWorld.CrystalDiskMark",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Benchmark de discos",
+    "iconUrl": "https://logo.clearbit.com/crystalmark.info"
+  },
+  {
+    "nome": "HWiNFO",
+    "id": "REALiX.HWiNFO",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Monitoramento completo de hardware",
+    "iconUrl": "https://logo.clearbit.com/hwinfo.com"
+  },
+  {
+    "nome": "GPU-Z",
+    "id": "TechPowerUp.GPU-Z",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Informações da placa de vídeo",
+    "iconUrl": "https://img.icons8.com/color/48/video-card.png"
+  },
+  {
+    "nome": "HWMonitor",
+    "id": "CPUID.HWMonitor",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Monitor de temperatura e voltagem",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "nome": "MSI Afterburner",
+    "id": "MSI.Afterburner",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Overclock e monitor de GPU",
+    "iconUrl": "https://logo.clearbit.com/msi.com"
+  },
+  {
+    "nome": "TreeSize Free",
+    "id": "JAMSoftware.TreeSize.Free",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Análise de uso do disco",
+    "iconUrl": "https://logo.clearbit.com/jam-software.com"
+  },
+  {
+    "nome": "WizTree",
+    "id": "AntibodySoftware.WizTree",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Analisador de disco ultrarrápido",
+    "iconUrl": "https://logo.clearbit.com/diskanalyzer.com"
+  },
+  {
+    "nome": "Everything",
+    "id": "voidtools.Everything",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Busca instantânea de arquivos",
+    "iconUrl": "https://img.icons8.com/color/48/search.png"
+  },
+  {
+    "nome": "Rufus",
+    "id": "Rufus.Rufus",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Criador de USB bootável",
+    "iconUrl": "https://img.icons8.com/color/48/usb-memory-stick.png"
+  },
+  {
+    "nome": "Ventoy",
+    "id": "Ventoy.Ventoy",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "USB multiboot",
+    "iconUrl": "https://logo.clearbit.com/ventoy.net"
+  },
+  {
+    "nome": "Etcher",
+    "id": "Balena.Etcher",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Flash de imagens ISO em USB",
+    "iconUrl": "https://img.icons8.com/color/48/flash-drive.png"
+  },
+  {
+    "nome": "PowerToys",
+    "id": "Microsoft.PowerToys",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Utilitários avanÃ§ados da Microsoft",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft.png"
+  },
+  {
+    "nome": "AutoHotkey",
+    "id": "AutoHotkey.AutoHotkey",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Automação de tarefas e macros",
+    "iconUrl": "https://img.icons8.com/color/48/code.png"
+  },
+  {
+    "nome": "ShareX",
+    "id": "ShareX.ShareX",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Capturas de tela e gravação",
+    "iconUrl": "https://img.icons8.com/color/48/screenshot.png"
+  },
+  {
+    "nome": "Greenshot",
+    "id": "Greenshot.Greenshot",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Captura de tela com anotações",
+    "iconUrl": "https://logo.clearbit.com/getgreenshot.org"
+  },
+  {
+    "nome": "Snappy Driver Installer",
+    "id": "GlennDelahoy.SnappyDriverInstallerOrigin",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Instalador de drivers offline",
+    "iconUrl": "https://logo.clearbit.com/sdi-tool.org"
+  },
+  {
+    "nome": "Driver Booster",
+    "id": "IObit.DriverBooster",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Atualizador de drivers",
+    "iconUrl": "https://logo.clearbit.com/iobit.com"
+  },
+  {
+    "nome": "TeamViewer",
+    "id": "TeamViewer.TeamViewer",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Acesso remoto",
+    "iconUrl": "https://img.icons8.com/color/48/teamviewer.png"
+  },
+  {
+    "nome": "AnyDesk",
+    "id": "AnyDeskSoftwareGmbH.AnyDesk",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Acesso remoto leve",
+    "iconUrl": "https://img.icons8.com/color/48/monitor--v1.png"
+  },
+  {
+    "nome": "Remote Desktop Manager",
+    "id": "Devolutions.RemoteDesktopManager",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de conexões remotas",
+    "iconUrl": "https://logo.clearbit.com/devolutions.net"
+  },
+  {
+    "nome": "Revo Uninstaller",
+    "id": "RevoUninstaller.RevoUninstaller",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Desinstalador avançado",
+    "iconUrl": "https://logo.clearbit.com/revouninstaller.com"
+  },
+  {
+    "nome": "Bulk Rename Utility",
+    "id": "TGRMN.BulkRenameUtility",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Renomear arquivos em lote",
+    "iconUrl": "https://logo.clearbit.com/bulkrenameutility.co.uk"
+  },
+  {
+    "nome": "WinDirStat",
+    "id": "WinDirStat.WinDirStat",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Mapa visual de uso do disco",
+    "iconUrl": "https://logo.clearbit.com/windirstat.net"
+  },
+  {
+    "nome": "Process Hacker",
+    "id": "wj32.ProcessHacker",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de processos avançado",
+    "iconUrl": "https://logo.clearbit.com/processhacker.sourceforge.io"
+  },
+  {
+    "nome": "System Informer",
+    "id": "wj32.SystemInformer",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Sucessor open source do Process Hacker",
+    "iconUrl": "https://logo.clearbit.com/systeminformer.com"
+  },
+  {
+    "nome": "Sysinternals Suite",
+    "id": "Microsoft.Sysinternals",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite de ferramentas do sistema",
+    "iconUrl": "https://logo.clearbit.com/sysinternals.com"
+  },
+  {
+    "nome": "Glasswire",
+    "id": "GlassWire.GlassWire",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Monitor de rede com firewall",
+    "iconUrl": "https://logo.clearbit.com/glasswire.com"
+  },
+  {
+    "nome": "NetLimiter",
+    "id": "Locktime.NetLimiter.4",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle de banda por processo",
+    "iconUrl": "https://logo.clearbit.com/netlimiter.com"
+  },
+  {
+    "nome": "NirSoft NirLauncher",
+    "id": "NirSoft.NirLauncher",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Coleção de utilitários NirSoft",
+    "iconUrl": "https://logo.clearbit.com/nirsoft.net"
+  },
+  {
+    "nome": "f.lux",
+    "id": "flux.flux",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Filtro de luz azul noturno",
+    "iconUrl": "https://logo.clearbit.com/justgetflux.com"
+  },
+  {
+    "nome": "Keypirinha",
+    "id": "Keypirinha.Keypirinha",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Lançador de aplicativos rápido",
+    "iconUrl": "https://logo.clearbit.com/keypirinha.com"
+  },
+  {
+    "nome": "Flow Launcher",
+    "id": "Flow-Launcher.Flow-Launcher",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Lançador de aplicativos moderno",
+    "iconUrl": "https://logo.clearbit.com/flowlauncher.com"
+  },
+  {
+    "nome": "Total Commander",
+    "id": "Ghisler.TotalCommander",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de arquivos dual-pane",
+    "iconUrl": "https://logo.clearbit.com/ghisler.com"
+  },
+  {
+    "nome": "Double Commander",
+    "id": "alexx2000.DoubleCommander",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de arquivos open source",
+    "iconUrl": "https://logo.clearbit.com/doublecmd.sourceforge.io"
+  },
+  {
+    "nome": "Files App",
+    "id": "Files-Community.Files",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de arquivos moderno",
+    "iconUrl": "https://logo.clearbit.com/files.community"
+  },
+  {
+    "nome": "QuickLook",
+    "id": "QL-Win.QuickLook",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Prévia rápida de arquivos com espaço",
+    "iconUrl": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "nome": "O&O ShutUp10++",
+    "id": "OO-Software.ShutUp10",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle de privacidade do Windows 10/11",
+    "iconUrl": "https://logo.clearbit.com/oo-software.com"
+  },
+  {
+    "nome": "WingetUI",
+    "id": "SomePythonThings.WingetUIStore",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Interface gráfica para winget",
+    "iconUrl": "https://logo.clearbit.com/marticliment.com"
+  },
+  {
+    "nome": "Rainmeter",
+    "id": "Rainmeter.Rainmeter",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Personalização da área de trabalho",
+    "iconUrl": "https://logo.clearbit.com/rainmeter.net"
+  },
+  {
+    "nome": "TranslucentTB",
+    "id": "TranslucentTB.TranslucentTB",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Barra de tarefas transparente",
+    "iconUrl": "https://logo.clearbit.com/translucenttb.github.io"
+  },
+  {
+    "nome": "Wox",
+    "id": "Wox.Wox",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Lançador de aplicativos estilo Alfred",
+    "iconUrl": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "nome": "UltraViewer",
+    "id": "DucFabulous.UltraViewer",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Acesso remoto leve e gratuito",
+    "iconUrl": "https://logo.clearbit.com/ultraviewer.net"
+  },
+  {
+    "nome": "OpenHashTab",
+    "id": "namazso.OpenHashTab",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Verificação de hash no menu de contexto",
+    "iconUrl": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "nome": "ExifTool",
+    "id": "OliverBetz.ExifTool",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Leitura e edição de metadados de arquivos",
+    "iconUrl": "https://logo.clearbit.com/exiftool.org"
+  },
+  {
+    "nome": "TaskbarX",
+    "id": "ChrisAndriessen.TaskbarX",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Centraliza ícones da barra de tarefas",
+    "iconUrl": "https://logo.clearbit.com/chrisandriessen.nl"
+  },
+  {
+    "nome": "ModernFlyouts",
+    "id": "ModernFlyouts.ModernFlyouts",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Flyouts modernos para Windows",
+    "iconUrl": "https://logo.clearbit.com/modernflyouts.github.io"
+  },
+  {
+    "nome": "EarTrumpet",
+    "id": "File-New-Project.EarTrumpet",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle de volume por aplicativo",
+    "iconUrl": "https://logo.clearbit.com/eartrumpet.app"
+  },
+  {
+    "nome": "Fences",
+    "id": "Stardock.Fences",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Organização de ícones na área de trabalho",
+    "iconUrl": "https://logo.clearbit.com/stardock.com"
+  },
+  {
+    "nome": "Wireshark",
+    "id": "WiresharkFoundation.Wireshark",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Analisador de pacotes de rede",
+    "iconUrl": "https://img.icons8.com/color/48/wireshark.png"
+  },
+  {
+    "nome": "Speccy",
+    "id": "Piriform.Speccy",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Informações do sistema",
+    "iconUrl": "https://logo.clearbit.com/ccleaner.com"
+  },
+  {
+    "nome": "Recuva",
+    "id": "Piriform.Recuva",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Recuperação de arquivos deletados",
+    "iconUrl": "https://logo.clearbit.com/ccleaner.com"
+  },
+  {
+    "nome": "Disk2vhd",
+    "id": "Microsoft.Disk2vhd",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Converter disco físico em VHD",
+    "iconUrl": "https://logo.clearbit.com/sysinternals.com"
+  },
+  {
+    "nome": "FurMark",
+    "id": "Geeks3D.FurMark",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Benchmark e stress test de GPU",
+    "iconUrl": "https://logo.clearbit.com/geeks3d.com"
+  },
+  {
+    "nome": "Prime95",
+    "id": "Mersenne.Prime95",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Stress test de CPU",
+    "iconUrl": "https://logo.clearbit.com/mersenne.org"
+  },
+  {
+    "nome": "AIDA64 Extreme",
+    "id": "FinalWire.AIDA64Extreme",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Diagnóstico e benchmark completo",
+    "iconUrl": "https://logo.clearbit.com/aida64.com"
+  },
+  {
+    "nome": "MemTest86",
+    "id": "PassMark.MemTest86",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Teste de memória RAM",
+    "iconUrl": "https://logo.clearbit.com/memtest86.com"
+  },
+  {
+    "nome": "Macrium Reflect Free",
+    "id": "MacriumSoftware.MacriumReflect",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Backup e clonagem de disco",
+    "iconUrl": "https://logo.clearbit.com/macrium.com"
+  },
+  {
+    "nome": "EaseUS Todo Backup",
+    "id": "EaseUS.TodoBackup",
+    "categoria": "Utilitários",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Backup de disco e partições",
+    "iconUrl": "https://logo.clearbit.com/easeus.com"
+  },
+  {
+    "nome": "Malwarebytes",
+    "id": "Malwarebytes.Malwarebytes",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Anti-malware",
+    "iconUrl": "https://img.icons8.com/color/48/malwarebytes.png"
+  },
+  {
+    "nome": "Kaspersky Free",
+    "id": "Kaspersky.KasperskyFree",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Antivírus gratuito Kaspersky",
+    "iconUrl": "https://img.icons8.com/color/48/kaspersky.png"
+  },
+  {
+    "nome": "Avast Free Antivirus",
+    "id": "Avast.Avast",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Antivírus gratuito",
+    "iconUrl": "https://img.icons8.com/color/48/avast-antivirus.png"
+  },
+  {
+    "nome": "AVG Antivirus",
+    "id": "AVG.AVG",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Antivírus gratuito AVG",
+    "iconUrl": "https://img.icons8.com/color/48/avg-antivirus.png"
+  },
+  {
+    "nome": "Bitdefender Free",
+    "id": "Bitdefender.Bitdefender",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Antivírus Bitdefender",
+    "iconUrl": "https://img.icons8.com/color/48/bitdefender.png"
+  },
+  {
+    "nome": "Bitwarden",
+    "id": "Bitwarden.Bitwarden",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de senhas open source",
+    "iconUrl": "https://img.icons8.com/color/48/bitwarden.png"
+  },
+  {
+    "nome": "KeePassXC",
+    "id": "KeePassXCTeam.KeePassXC",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de senhas local",
+    "iconUrl": "https://logo.clearbit.com/keepassxc.org"
+  },
+  {
+    "nome": "VeraCrypt",
+    "id": "IDRIX.VeraCrypt",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Criptografia de volumes",
+    "iconUrl": "https://img.icons8.com/color/48/encryption.png"
+  },
+  {
+    "nome": "ProtonVPN",
+    "id": "ProtonTechnologies.ProtonVPN",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "VPN segura e gratuita",
+    "iconUrl": "https://img.icons8.com/color/48/proton-vpn.png"
+  },
+  {
+    "nome": "WireGuard",
+    "id": "WireGuard.WireGuard",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "VPN moderna e eficiente",
+    "iconUrl": "https://logo.clearbit.com/wireguard.com"
+  },
+  {
+    "nome": "OpenVPN",
+    "id": "OpenVPNTechnologies.OpenVPN",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "VPN open source",
+    "iconUrl": "https://logo.clearbit.com/openvpn.net"
+  },
+  {
+    "nome": "Spybot Search & Destroy",
+    "id": "Safer-Networking.SpybotSearchAndDestroy",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Anti-spyware",
+    "iconUrl": "https://logo.clearbit.com/safer-networking.org"
+  },
+  {
+    "nome": "Tinywall",
+    "id": "PylSoft.TinyWall",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Firewall leve para Windows",
+    "iconUrl": "https://logo.clearbit.com/tinywall.pados.hu"
+  },
+  {
+    "nome": "Autoruns",
+    "id": "Microsoft.Sysinternals.Autoruns",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerencia programas de inicialização",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "nome": "Defender Control",
+    "id": "Sadiqmd.DefenderControl",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle do Windows Defender",
+    "iconUrl": "https://logo.clearbit.com/sordum.org"
+  },
+  {
+    "nome": "ClamWin",
+    "id": "ClamWin.ClamWin",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Antivírus open source ClamAV",
+    "iconUrl": "https://logo.clearbit.com/clamwin.com"
+  },
+  {
+    "nome": "Windscribe",
+    "id": "Windscribe.Windscribe",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "VPN gratuita com 10GB/mês",
+    "iconUrl": "https://logo.clearbit.com/windscribe.com"
+  },
+  {
+    "nome": "Mullvad VPN",
+    "id": "MullvadVPN.MullvadVPN",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "VPN focada em privacidade",
+    "iconUrl": "https://logo.clearbit.com/mullvad.net"
+  },
+  {
+    "nome": "1Password",
+    "id": "AgileBits.1Password",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de senhas premium",
+    "iconUrl": "https://img.icons8.com/color/48/1password.png"
+  },
+  {
+    "nome": "Dashlane",
+    "id": "Dashlane.Dashlane",
+    "categoria": "Segurança",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de senhas",
+    "iconUrl": "https://logo.clearbit.com/dashlane.com"
+  },
+  {
+    "nome": "Visual Studio Code",
+    "id": "Microsoft.VisualStudioCode",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de código da Microsoft",
+    "iconUrl": "https://img.icons8.com/color/48/visual-studio.png"
+  },
+  {
+    "nome": "Visual Studio 2022 Community",
+    "id": "Microsoft.VisualStudio.2022.Community",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "IDE completa da Microsoft",
+    "iconUrl": "https://img.icons8.com/color/48/visual-studio.png"
+  },
+  {
+    "nome": "Git",
+    "id": "Git.Git",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle de versão",
+    "iconUrl": "https://img.icons8.com/color/48/git.png"
+  },
+  {
+    "nome": "GitHub Desktop",
+    "id": "GitHub.GitHubDesktop",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Interface gráfica do GitHub",
+    "iconUrl": "https://img.icons8.com/color/48/github--v1.png"
+  },
+  {
+    "nome": "GitHub CLI",
+    "id": "GitHub.cli",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "GitHub na linha de comando",
+    "iconUrl": "https://img.icons8.com/color/48/github--v1.png"
+  },
+  {
+    "nome": "GitKraken",
+    "id": "Axosoft.GitKraken",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente Git visual e poderoso",
+    "iconUrl": "https://img.icons8.com/color/48/git.png"
+  },
+  {
+    "nome": "Sourcetree",
+    "id": "Atlassian.Sourcetree",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente Git gratuito da Atlassian",
+    "iconUrl": "https://logo.clearbit.com/sourcetreeapp.com"
+  },
+  {
+    "nome": "Python 3.12",
+    "id": "Python.Python.3.12",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Linguagem de programação Python",
+    "iconUrl": "https://img.icons8.com/color/48/python--v1.png"
+  },
+  {
+    "nome": "Python 3.11",
+    "id": "Python.Python.3.11",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Python 3.11 LTS",
+    "iconUrl": "https://img.icons8.com/color/48/python--v1.png"
+  },
+  {
+    "nome": "Node.js LTS",
+    "id": "OpenJS.NodeJS.LTS",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime JavaScript",
+    "iconUrl": "https://img.icons8.com/color/48/nodejs.png"
+  },
+  {
+    "nome": ".NET SDK 8",
+    "id": "Microsoft.DotNet.SDK.8",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "SDK do .NET 8",
+    "iconUrl": "https://img.icons8.com/color/48/net-framework.png"
+  },
+  {
+    "nome": ".NET SDK 9",
+    "id": "Microsoft.DotNet.SDK.9",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "SDK do .NET 9",
+    "iconUrl": "https://img.icons8.com/color/48/net-framework.png"
+  },
+  {
+    "nome": "JDK 21 (Temurin)",
+    "id": "EclipseAdoptium.Temurin.21.JDK",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Java Development Kit 21 LTS",
+    "iconUrl": "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "nome": "JDK 17 (Temurin)",
+    "id": "EclipseAdoptium.Temurin.17.JDK",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Java Development Kit 17 LTS",
+    "iconUrl": "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "nome": "IntelliJ IDEA Community",
+    "id": "JetBrains.IntelliJIDEA.Community",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "IDE Java da JetBrains",
+    "iconUrl": "https://img.icons8.com/color/48/intellij-idea.png"
+  },
+  {
+    "nome": "PyCharm Community",
+    "id": "JetBrains.PyCharm.Community",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "IDE Python da JetBrains",
+    "iconUrl": "https://img.icons8.com/color/48/pycharm.png"
+  },
+  {
+    "nome": "WebStorm",
+    "id": "JetBrains.WebStorm",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "IDE JavaScript da JetBrains",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "nome": "CLion",
+    "id": "JetBrains.CLion",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "IDE C/C++ da JetBrains",
+    "iconUrl": "https://img.icons8.com/color/48/clion.png"
+  },
+  {
+    "nome": "Rider",
+    "id": "JetBrains.Rider",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "IDE .NET da JetBrains",
+    "iconUrl": "https://img.icons8.com/color/48/rider.png"
+  },
+  {
+    "nome": "Android Studio",
+    "id": "Google.AndroidStudio",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "IDE para desenvolvimento Android",
+    "iconUrl": "https://img.icons8.com/color/48/android-studio--v3.png"
+  },
+  {
+    "nome": "Docker Desktop",
+    "id": "Docker.DockerDesktop",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Contêineres Docker",
+    "iconUrl": "https://img.icons8.com/color/48/docker.png"
+  },
+  {
+    "nome": "Postman",
+    "id": "Postman.Postman",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Testes de API REST",
+    "iconUrl": "https://img.icons8.com/dusk/48/postman-api.png"
+  },
+  {
+    "nome": "Insomnia",
+    "id": "Insomnia.Insomnia",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente REST/GraphQL",
+    "iconUrl": "https://logo.clearbit.com/insomnia.rest"
+  },
+  {
+    "nome": "HeidiSQL",
+    "id": "HeidiSQL.HeidiSQL",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente MySQL/MariaDB/PostgreSQL",
+    "iconUrl": "https://logo.clearbit.com/heidisql.com"
+  },
+  {
+    "nome": "DBeaver",
+    "id": "dbeaver.dbeaver",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente de banco de dados universal",
+    "iconUrl": "https://img.icons8.com/color/48/database.png"
+  },
+  {
+    "nome": "WinSCP",
+    "id": "WinSCP.WinSCP",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente FTP/SFTP",
+    "iconUrl": "https://logo.clearbit.com/winscp.net"
+  },
+  {
+    "nome": "PuTTY",
+    "id": "PuTTY.PuTTY",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente SSH/Telnet",
+    "iconUrl": "https://img.icons8.com/color/48/console.png"
+  },
+  {
+    "nome": "MobaXterm",
+    "id": "Mobatek.MobaXterm",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Terminal SSH avançado",
+    "iconUrl": "https://logo.clearbit.com/mobatek.net"
+  },
+  {
+    "nome": "Sublime Text",
+    "id": "SublimeHQ.SublimeText.4",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de código rápido",
+    "iconUrl": "https://img.icons8.com/color/48/sublime-text.png"
+  },
+  {
+    "nome": "Vim",
+    "id": "vim.vim",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de texto modal",
+    "iconUrl": "https://img.icons8.com/color/48/vim.png"
+  },
+  {
+    "nome": "Neovim",
+    "id": "Neovim.Neovim",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Vim moderno e extensível",
+    "iconUrl": "https://img.icons8.com/color/48/vim.png"
+  },
+  {
+    "nome": "Windows Terminal",
+    "id": "Microsoft.WindowsTerminal",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Terminal moderno da Microsoft",
+    "iconUrl": "https://img.icons8.com/color/48/console.png"
+  },
+  {
+    "nome": "PHP",
+    "id": "PHP.PHP",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Linguagem PHP",
+    "iconUrl": "https://img.icons8.com/color/48/php.png"
+  },
+  {
+    "nome": "Go",
+    "id": "GoLang.Go",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Linguagem de programação Go",
+    "iconUrl": "https://img.icons8.com/color/48/golang.png"
+  },
+  {
+    "nome": "Rust",
+    "id": "Rustlang.Rustup",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Toolchain da linguagem Rust",
+    "iconUrl": "https://img.icons8.com/color/48/rust.png"
+  },
+  {
+    "nome": "CMake",
+    "id": "Kitware.CMake",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Sistema de build multiplataforma",
+    "iconUrl": "https://logo.clearbit.com/cmake.org"
+  },
+  {
+    "nome": "XAMPP",
+    "id": "ApacheFriends.Xampp",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Apache + PHP + MySQL local",
+    "iconUrl": "https://img.icons8.com/color/48/xampp.png"
+  },
+  {
+    "nome": "Terraform",
+    "id": "Hashicorp.Terraform",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Infraestrutura como código",
+    "iconUrl": "https://img.icons8.com/color/48/terraform.png"
+  },
+  {
+    "nome": "kubectl",
+    "id": "Kubernetes.kubectl",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "CLI para Kubernetes",
+    "iconUrl": "https://logo.clearbit.com/kubernetes.io"
+  },
+  {
+    "nome": "Azure CLI",
+    "id": "Microsoft.AzureCLI",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "CLI da plataforma Microsoft Azure",
+    "iconUrl": "https://img.icons8.com/color/48/azure-1.png"
+  },
+  {
+    "nome": "AWS CLI",
+    "id": "Amazon.AWSCLI",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "CLI da Amazon Web Services",
+    "iconUrl": "https://img.icons8.com/color/48/amazon-web-services.png"
+  },
+  {
+    "nome": "Google Cloud CLI",
+    "id": "Google.CloudSDK",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "CLI do Google Cloud Platform",
+    "iconUrl": "https://img.icons8.com/color/48/google-cloud.png"
+  },
+  {
+    "nome": "VirtualBox",
+    "id": "Oracle.VirtualBox",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Virtualização de sistemas operacionais",
+    "iconUrl": "https://img.icons8.com/color/48/virtualbox.png"
+  },
+  {
+    "nome": "VMware Workstation Player",
+    "id": "VMware.WorkstationPlayer",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Virtualização gratuita da VMware",
+    "iconUrl": "https://img.icons8.com/color/48/vmware.png"
+  },
+  {
+    "nome": "Vagrant",
+    "id": "Hashicorp.Vagrant",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Ambientes de desenvolvimento virtualizados",
+    "iconUrl": "https://logo.clearbit.com/vagrantup.com"
+  },
+  {
+    "nome": "nvm-windows",
+    "id": "CoreyButler.NVMforWindows",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de versões do Node.js",
+    "iconUrl": "https://img.icons8.com/color/48/nodejs.png"
+  },
+  {
+    "nome": "pyenv-win",
+    "id": "pyenv-win.pyenv-win",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de versões do Python",
+    "iconUrl": "https://img.icons8.com/color/48/python.png"
+  },
+  {
+    "nome": "Ruby",
+    "id": "RubyInstallerTeam.Ruby",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Linguagem de programação Ruby",
+    "iconUrl": "https://img.icons8.com/color/48/ruby-programming-language.png"
+  },
+  {
+    "nome": "Julia",
+    "id": "Julialang.Julia",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Linguagem para computação científica",
+    "iconUrl": "https://logo.clearbit.com/julialang.org"
+  },
+  {
+    "nome": "Deno",
+    "id": "DenoLand.Deno",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime JavaScript/TypeScript moderno",
+    "iconUrl": "https://logo.clearbit.com/deno.land"
+  },
+  {
+    "nome": "Bun",
+    "id": "Oven-sh.Bun",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime e bundler JavaScript rápido",
+    "iconUrl": "https://logo.clearbit.com/bun.sh"
+  },
+  {
+    "nome": "Cursor",
+    "id": "Anysphere.Cursor",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de código com IA integrada",
+    "iconUrl": "https://logo.clearbit.com/cursor.sh"
+  },
+  {
+    "nome": "Zed",
+    "id": "Zed.Zed",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de código ultrarrápido",
+    "iconUrl": "https://logo.clearbit.com/zed.dev"
+  },
+  {
+    "nome": "MongoDB Compass",
+    "id": "MongoDB.Compass.Full",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "GUI para MongoDB",
+    "iconUrl": "https://img.icons8.com/color/48/golang.png"
+  },
+  {
+    "nome": "Redis Insight",
+    "id": "RedisLabs.RedisInsight",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "GUI para Redis",
+    "iconUrl": "https://logo.clearbit.com/redis.io"
+  },
+  {
+    "nome": "TablePlus",
+    "id": "TablePlus.TablePlus",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Cliente de banco de dados moderno",
+    "iconUrl": "https://logo.clearbit.com/tableplus.com"
+  },
+  {
+    "nome": "Notepad2-mod",
+    "id": "XhmikosR.Notepad2-mod",
+    "categoria": "Desenvolvimento",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Editor de texto com syntax highlight",
+    "iconUrl": "https://img.icons8.com/color/48/notepad.png"
+  },
+  {
+    "nome": "Steam",
+    "id": "Valve.Steam",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Plataforma de jogos",
+    "iconUrl": "https://img.icons8.com/color/48/steam.png"
+  },
+  {
+    "nome": "Epic Games Launcher",
+    "id": "EpicGames.EpicGamesLauncher",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Loja da Epic Games",
+    "iconUrl": "https://img.icons8.com/color/48/epic-games.png"
+  },
+  {
+    "nome": "GOG Galaxy",
+    "id": "GOG.Galaxy",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Plataforma GOG",
+    "iconUrl": "https://img.icons8.com/color/48/golang.png"
+  },
+  {
+    "nome": "Ubisoft Connect",
+    "id": "Ubisoft.Connect",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Plataforma de jogos Ubisoft",
+    "iconUrl": "https://img.icons8.com/color/48/ubisoft.png"
+  },
+  {
+    "nome": "EA App",
+    "id": "ElectronicArts.EADesktop",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Launcher da Electronic Arts",
+    "iconUrl": "https://img.icons8.com/color/48/electronic-arts.png"
+  },
+  {
+    "nome": "Battle.net",
+    "id": "Blizzard.BattleNet",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Plataforma Blizzard",
+    "iconUrl": "https://img.icons8.com/color/48/battle-net.png"
+  },
+  {
+    "nome": "Playnite",
+    "id": "Playnite.Playnite",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Biblioteca unificada de jogos",
+    "iconUrl": "https://logo.clearbit.com/playnite.link"
+  },
+  {
+    "nome": "Heroic Games Launcher",
+    "id": "HeroicGamesLauncher.HeroicGamesLauncher",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Launcher para Epic/GOG no Linux/Windows",
+    "iconUrl": "https://logo.clearbit.com/heroicgameslauncher.com"
+  },
+  {
+    "nome": "itch.io",
+    "id": "itch.itch",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Plataforma de jogos indie",
+    "iconUrl": "https://logo.clearbit.com/itch.io"
+  },
+  {
+    "nome": "RetroArch",
+    "id": "Libretro.RetroArch",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Emulador multi-sistema",
+    "iconUrl": "https://logo.clearbit.com/retroarch.com"
+  },
+  {
+    "nome": "PPSSPP",
+    "id": "PPSSPPTeam.PPSSPP",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Emulador de PSP",
+    "iconUrl": "https://logo.clearbit.com/ppsspp.org"
+  },
+  {
+    "nome": "Dolphin Emulator",
+    "id": "DolphinEmu.Dolphin",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Emulador de GameCube e Wii",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "nome": "PCSX2",
+    "id": "PCSX2Team.PCSX2",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Emulador de PlayStation 2",
+    "iconUrl": "https://logo.clearbit.com/pcsx2.net"
+  },
+  {
+    "nome": "RPCS3",
+    "id": "rpcs3.rpcs3",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Emulador de PlayStation 3",
+    "iconUrl": "https://logo.clearbit.com/rpcs3.net"
+  },
+  {
+    "nome": "Visual C++ 2022 x64",
+    "id": "Microsoft.VCRedist.2022.x64",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime VC++ 2022 64-bit",
+    "iconUrl": "https://img.icons8.com/color/48/c-plus-plus-logo.png"
+  },
+  {
+    "nome": "Visual C++ 2022 x86",
+    "id": "Microsoft.VCRedist.2022.x86",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime VC++ 2022 32-bit",
+    "iconUrl": "https://img.icons8.com/color/48/c-plus-plus-logo.png"
+  },
+  {
+    "nome": "Visual C++ 2019 x64",
+    "id": "Microsoft.VCRedist.2019.x64",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime VC++ 2019 64-bit",
+    "iconUrl": "https://img.icons8.com/color/48/c-plus-plus-logo.png"
+  },
+  {
+    "nome": "Visual C++ 2015-2019 x86",
+    "id": "Microsoft.VCRedist.2015+.x86",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime VC++ 2015-2019 32-bit",
+    "iconUrl": "https://img.icons8.com/color/48/c-plus-plus-logo.png"
+  },
+  {
+    "nome": "DirectX Runtime",
+    "id": "Microsoft.DirectX",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime DirectX",
+    "iconUrl": "https://img.icons8.com/color/48/windows-10.png"
+  },
+  {
+    "nome": "XNA Framework 4.0",
+    "id": "Microsoft.XNARedist",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Runtime XNA para jogos antigos",
+    "iconUrl": "https://img.icons8.com/color/48/microsoft.png"
+  },
+  {
+    "nome": "DXVK",
+    "id": "doitsujin.DXVK",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Camada DirectX para Vulkan",
+    "iconUrl": "https://img.icons8.com/color/48/vulkan.png"
+  },
+  {
+    "nome": "OpenAL",
+    "id": "OpenAL.OpenAL",
+    "categoria": "Games",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Biblioteca de áudio 3D",
+    "iconUrl": "https://img.icons8.com/color/48/audio-wave.png"
+  },
+  {
+    "nome": "AMD Chipset Drivers",
+    "id": "AMD.AmdChipsetSoftware",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Drivers de chipset AMD",
+    "iconUrl": "https://img.icons8.com/color/48/amd.png"
+  },
+  {
+    "nome": "Intel Driver Support",
+    "id": "Intel.IntelDriverAndSupportAssistant",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Assistente de drivers Intel",
+    "iconUrl": "https://img.icons8.com/color/48/intel.png"
+  },
+  {
+    "nome": "NVIDIA App",
+    "id": "Nvidia.NvidiaApp",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "App da NVIDIA para drivers e overlay",
+    "iconUrl": "https://img.icons8.com/color/48/nvidia.png"
+  },
+  {
+    "nome": "Realtek Audio Driver",
+    "id": "RealtekSemiconductor.RealtekAudioDriver",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Driver de áudio Realtek",
+    "iconUrl": "https://logo.clearbit.com/realtek.com"
+  },
+  {
+    "nome": "Corsair iCUE",
+    "id": "Corsair.iCUE.4",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Software de controle Corsair",
+    "iconUrl": "https://img.icons8.com/color/48/corsair.png"
+  },
+  {
+    "nome": "Logitech G Hub",
+    "id": "Logitech.GHUB",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Software para periféricos Logitech G",
+    "iconUrl": "https://img.icons8.com/color/48/logitech.png"
+  },
+  {
+    "nome": "Razer Synapse",
+    "id": "RazerInc.RazerSynapse",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Software para periféricos Razer",
+    "iconUrl": "https://img.icons8.com/color/48/razer.png"
+  },
+  {
+    "nome": "SteelSeries GG",
+    "id": "SteelSeries.GG",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Software para periféricos SteelSeries",
+    "iconUrl": "https://logo.clearbit.com/steelseries.com"
+  },
+  {
+    "nome": "ASUS Armoury Crate",
+    "id": "ASUS.ArmouryCrate",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Software ASUS para hardware e RGB",
+    "iconUrl": "https://img.icons8.com/color/48/asus.png"
+  },
+  {
+    "nome": "Gigabyte Control Center",
+    "id": "Gigabyte.ControlCenter",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Software Gigabyte para hardware",
+    "iconUrl": "https://logo.clearbit.com/gigabyte.com"
+  },
+  {
+    "nome": "MSI Center",
+    "id": "MSI.MSICenter",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Software MSI para hardware e RGB",
+    "iconUrl": "https://img.icons8.com/color/48/msi-logo.png"
+  },
+  {
+    "nome": "OpenRGB",
+    "id": "OpenRGB.OpenRGB",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle de RGB open source",
+    "iconUrl": "https://logo.clearbit.com/openrgb.org"
+  },
+  {
+    "nome": "SignalRGB",
+    "id": "WhirlwindFX.SignalRgb",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle de RGB multiplataforma",
+    "iconUrl": "https://img.icons8.com/color/48/signal-app.png"
+  },
+  {
+    "nome": "Xbox Accessories",
+    "id": "Microsoft.XboxAccessories",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Configuração de controles Xbox",
+    "iconUrl": "https://img.icons8.com/color/48/xbox.png"
+  },
+  {
+    "nome": "DS4Windows",
+    "id": "Ryochan7.DS4Windows",
+    "categoria": "Drivers",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Controle PS4/PS5 no Windows",
+    "iconUrl": "https://logo.clearbit.com/ds4-windows.com"
+  },
+  {
+    "nome": "BleachBit",
+    "id": "BleachBit.BleachBit",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Limpeza avançada de disco",
+    "iconUrl": "https://logo.clearbit.com/bleachbit.org"
+  },
+  {
+    "nome": "Wise Disk Cleaner",
+    "id": "WiseCleaner.WiseDiskCleaner",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Limpeza de disco e otimização",
+    "iconUrl": "https://logo.clearbit.com/wisecleaner.com"
+  },
+  {
+    "nome": "Wise Registry Cleaner",
+    "id": "WiseCleaner.WiseRegistryCleaner",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Limpeza do registro do Windows",
+    "iconUrl": "https://logo.clearbit.com/wisecleaner.com"
+  },
+  {
+    "nome": "IObit Uninstaller",
+    "id": "IObit.IObitUninstaller",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Desinstalador com limpeza de resíduos",
+    "iconUrl": "https://logo.clearbit.com/iobit.com"
+  },
+  {
+    "nome": "Privazer",
+    "id": "PrivaZer.PrivaZer",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Limpeza profunda de privacidade",
+    "iconUrl": "https://logo.clearbit.com/privazer.com"
+  },
+  {
+    "nome": "Glary Utilities",
+    "id": "Glarysoft.GlaryUtilities",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Suite de otimização e limpeza",
+    "iconUrl": "https://logo.clearbit.com/glarysoft.com"
+  },
+  {
+    "nome": "Auslogics BoostSpeed",
+    "id": "Auslogics.BoostSpeed",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Otimizador de desempenho do Windows",
+    "iconUrl": "https://logo.clearbit.com/auslogics.com"
+  },
+  {
+    "nome": "Defraggler",
+    "id": "Piriform.Defraggler",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Desfragmentador de disco",
+    "iconUrl": "https://logo.clearbit.com/ccleaner.com"
+  },
+  {
+    "nome": "O&O Defrag Free",
+    "id": "OO-Software.O&ODefrag",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Desfragmentador avançado gratuito",
+    "iconUrl": "https://logo.clearbit.com/oo-software.com"
+  },
+  {
+    "nome": "Wise Care 365",
+    "id": "WiseCleaner.WiseCare365",
+    "categoria": "Limpeza",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Otimizador completo do sistema",
+    "iconUrl": "https://logo.clearbit.com/wisecleaner.com"
+  },
+  {
+    "nome": "Ollama",
+    "id": "Ollama.Ollama",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Rode modelos de IA localmente",
+    "iconUrl": "https://logo.clearbit.com/ollama.com"
+  },
+  {
+    "nome": "LM Studio",
+    "id": "ElementLabs.LMStudio",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Interface para modelos de linguagem locais",
+    "iconUrl": "https://logo.clearbit.com/lmstudio.ai"
+  },
+  {
+    "nome": "Jan AI",
+    "id": "Homebrew.Jan",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "App desktop para LLMs open source",
+    "iconUrl": "https://logo.clearbit.com/jan.ai"
+  },
+  {
+    "nome": "Recall (PowerShell AI)",
+    "id": "mikehicks.recall",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Ferramenta de recall com IA",
+    "iconUrl": "https://img.icons8.com/color/48/powershell.png"
+  },
+  {
+    "nome": "Trello",
+    "id": "Atlassian.Trello",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciamento de tarefas em kanban",
+    "iconUrl": "https://img.icons8.com/color/48/trello.png"
+  },
+  {
+    "nome": "Todoist",
+    "id": "Doist.Todoist",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Lista de tarefas e produtividade",
+    "iconUrl": "https://img.icons8.com/color/48/todoist.png"
+  },
+  {
+    "nome": "Toggl Track",
+    "id": "Toggl.TogglTrack",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Rastreamento de tempo e produtividade",
+    "iconUrl": "https://logo.clearbit.com/toggl.com"
+  },
+  {
+    "nome": "Anki",
+    "id": "Anki.Anki",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Flashcards com repetição espaçada",
+    "iconUrl": "https://img.icons8.com/color/48/flashcards.png"
+  },
+  {
+    "nome": "Warp Terminal",
+    "id": "Warp.Warp",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Terminal moderno com IA integrada",
+    "iconUrl": "https://logo.clearbit.com/warp.dev"
+  },
+  {
+    "nome": "Miro",
+    "id": "Miro.Miro",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Quadro branco colaborativo online",
+    "iconUrl": "https://img.icons8.com/color/48/miro.png"
+  },
+  {
+    "nome": "Loom",
+    "id": "Loom.Loom",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gravação de tela e vídeos rápidos",
+    "iconUrl": "https://img.icons8.com/color/48/loom.png"
+  },
+  {
+    "nome": "Clockify",
+    "id": "Clockify.Clockify",
+    "categoria": "IA & Produtividade",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Rastreamento gratuito de horas trabalhadas",
+    "iconUrl": "https://logo.clearbit.com/clockify.me"
+  },
+  {
+    "nome": "VirtualBox Extension Pack",
+    "id": "Oracle.VirtualBox.ExtensionPack",
+    "categoria": "Virtualização",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Extensões do VirtualBox",
+    "iconUrl": "https://img.icons8.com/color/48/virtualbox.png"
+  },
+  {
+    "nome": "Windows Subsystem Android",
+    "id": "Microsoft.WindowsSubsystemForAndroid",
+    "categoria": "Virtualização",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Subsistema Android no Windows 11",
+    "iconUrl": "https://img.icons8.com/color/48/android-os.png"
+  },
+  {
+    "nome": "QEMU",
+    "id": "QEMU.QEMU",
+    "categoria": "Virtualização",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Emulador e virtualizador open source",
+    "iconUrl": "https://logo.clearbit.com/qemu.org"
+  },
+  {
+    "nome": "Chocolatey",
+    "id": "Chocolatey.Chocolatey",
+    "categoria": "Gerenc. Pacotes",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de pacotes para Windows",
+    "iconUrl": "https://logo.clearbit.com/chocolatey.org"
+  },
+  {
+    "nome": "Scoop",
+    "id": "ScoopInstaller.Scoop",
+    "categoria": "Gerenc. Pacotes",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Gerenciador de pacotes via linha de comando",
+    "iconUrl": "https://logo.clearbit.com/scoop.sh"
+  },
+  {
+    "nome": "Zoom It",
+    "id": "Microsoft.Sysinternals.ZoomIt",
+    "categoria": "Apresentações",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Zoom e anotações em tela para apresentações",
+    "iconUrl": "https://img.icons8.com/color/48/zoom.png"
+  },
+  {
+    "nome": "OBS Studio NDI Plugin",
+    "id": "obs-ndi.obs-ndi",
+    "categoria": "Apresentações",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Plugin NDI para OBS Studio",
+    "iconUrl": "https://img.icons8.com/fluency/48/obs-studio.png"
+  },
+  {
+    "nome": "Prezi",
+    "id": "Prezi.Prezi",
+    "categoria": "Apresentações",
+    "tipo": "winget",
+    "url": null,
+    "silentArgs": null,
+    "descricao": "Apresentações dinÃ¢micas em nuvem",
+    "iconUrl": "https://logo.clearbit.com/prezi.com"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Chromium extremamente rápido",
+    "nome": "Thorium Browser",
+    "id": "Alex313031.Thorium",
+    "iconUrl": "https://logo.clearbit.com/thorium.rocks"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Chromium compatível com PCs mais antigos",
+    "nome": "Supermium",
+    "id": "win32ss.Supermium",
+    "iconUrl": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Fork do Firefox focado em privacidade e customização",
+    "nome": "Floorp",
+    "id": "Ablaze.Floorp",
+    "iconUrl": "https://logo.clearbit.com/floorp.app"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Navegador leve e open-source",
+    "nome": "Midori",
+    "id": "Midori.Midori",
+    "iconUrl": "https://logo.clearbit.com/midori-browser.org"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Navegador com ferramentas de nuvem integradas",
+    "nome": "Maxthon",
+    "id": "Maxthon.Maxthon",
+    "iconUrl": "https://logo.clearbit.com/maxthon.com"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Chromium sem rastreamento do Google",
+    "nome": "SRWare Iron",
+    "id": "SRWare.Iron",
+    "iconUrl": "https://logo.clearbit.com/srware.net"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Navegador focado estritamente em privacidade",
+    "nome": "Epic Privacy Browser",
+    "id": "HiddenData.EpicPrivacyBrowser",
+    "iconUrl": "https://logo.clearbit.com/epicbrowser.com"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Navegador oficial do DuckDuckGo",
+    "nome": "DuckDuckGo Browser",
+    "id": "DuckDuckGo.DesktopBrowser",
+    "iconUrl": "https://logo.clearbit.com/duckduckgo.com"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Suíte de internet completa clássica",
+    "nome": "SeaMonkey",
+    "id": "Mozilla.SeaMonkey",
+    "iconUrl": "https://logo.clearbit.com/seamonkey-project.org"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Chromium com várias ferramentas extras",
+    "nome": "Cent Browser",
+    "id": "CentStudio.CentBrowser",
+    "iconUrl": "https://logo.clearbit.com/centbrowser.com"
+  },
+  {
+    "categoria": "Navegadores",
+    "tipo": "winget",
+    "descricao": "Chromium rápido com bloqueador de anúncios",
+    "nome": "Slimjet",
+    "id": "FlashPeak.Slimjet",
+    "iconUrl": "https://logo.clearbit.com/slimjet.com"
+  },
+  {
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "descricao": "Compactador popular na Ásia",
+    "nome": "HaoZip",
+    "id": "Ruichuang.HaoZip",
+    "iconUrl": "https://logo.clearbit.com/haozip.com"
+  },
+  {
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "descricao": "Suporte a formatos B1 e populares",
+    "nome": "B1 Free Archiver",
+    "id": "CatalinaGroup.B1FreeArchiver",
+    "iconUrl": "https://logo.clearbit.com/b1.org"
+  },
+  {
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "descricao": "Suporta uma enorme variedade de formatos",
+    "nome": "IZArc",
+    "id": "IvanZahariev.IZArc",
+    "iconUrl": "https://logo.clearbit.com/izarc.org"
+  },
+  {
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "descricao": "Alternativa moderna e gratuita",
+    "nome": "Ashampoo ZIP Free",
+    "id": "Ashampoo.ZIPFree",
+    "iconUrl": "https://logo.clearbit.com/ashampoo.com"
+  },
+  {
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "descricao": "Compactador rápido e eficiente",
+    "nome": "Express Zip",
+    "id": "NCHSoftware.ExpressZip",
+    "iconUrl": "https://logo.clearbit.com/nchsoftware.com"
+  },
+  {
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "descricao": "Compressor premium e seguro",
+    "nome": "PowerArchiver",
+    "id": "ConeXware.PowerArchiver",
+    "iconUrl": "https://logo.clearbit.com/powerarchiver.com"
+  },
+  {
+    "categoria": "Compactadores",
+    "tipo": "winget",
+    "descricao": "Compactador gratuito italiano clássico",
+    "nome": "ZipGenius",
+    "id": "ZipGenius.ZipGenius",
+    "iconUrl": "https://logo.clearbit.com/zipgenius.com"
+  },
+  {
+    "categoria": "Recuperação de Dados",
+    "tipo": "winget",
+    "descricao": "Recuperação de partições e setores de boot",
+    "nome": "TestDisk",
+    "id": "CGSecurity.TestDisk",
+    "iconUrl": "https://logo.clearbit.com/cgsecurity.org"
+  },
+  {
+    "categoria": "Recuperação de Dados",
+    "tipo": "winget",
+    "descricao": "Recuperação profunda de arquivos e mídia",
+    "nome": "PhotoRec",
+    "id": "CGSecurity.PhotoRec",
+    "iconUrl": "https://img.icons8.com/color/48/tor-browser.png"
+  },
+  {
+    "categoria": "Recuperação de Dados",
+    "tipo": "winget",
+    "descricao": "Solução avançada de recuperação",
+    "nome": "MiniTool Power Data Recovery",
+    "id": "MiniTool.PowerDataRecovery",
+    "iconUrl": "https://logo.clearbit.com/minitool.com"
+  },
+  {
+    "categoria": "Rede & Wi-Fi",
+    "tipo": "winget",
+    "descricao": "Mapeamento de rede e auditoria de segurança",
+    "nome": "Nmap",
+    "id": "Insecure.Nmap",
+    "iconUrl": "https://img.icons8.com/color/48/radar.png"
+  },
+  {
+    "categoria": "Rede & Wi-Fi",
+    "tipo": "winget",
+    "descricao": "Scanner de rede e detecção de dispositivos",
+    "nome": "Fing",
+    "id": "Fing.FingDesktop",
+    "iconUrl": "https://logo.clearbit.com/fing.com"
+  },
+  {
+    "categoria": "Rede & Wi-Fi",
+    "tipo": "winget",
+    "descricao": "Scanner rápido de IPs locais",
+    "nome": "Advanced IP Scanner",
+    "id": "Famatech.AdvancedIPScanner",
+    "iconUrl": "https://logo.clearbit.com/advanced-ip-scanner.com"
+  },
+  {
+    "categoria": "Design & 3D",
+    "tipo": "winget",
+    "descricao": "Modelagem e animação 3D open-source",
+    "nome": "Blender",
+    "id": "BlenderFoundation.Blender",
+    "iconUrl": "https://img.icons8.com/color/48/blender-3d.png"
+  },
+  {
+    "categoria": "Acesso Remoto",
+    "tipo": "winget",
+    "descricao": "Acesso remoto padrão VNC",
+    "nome": "VNC Viewer",
+    "id": "RealVNC.VNCViewer",
+    "iconUrl": "https://logo.clearbit.com/realvnc.com"
+  },
+  {
+    "categoria": "Bancos de Dados",
+    "tipo": "winget",
+    "descricao": "Gestão avançada de PostgreSQL",
+    "nome": "pgAdmin 4",
+    "id": "PostgreSQL.pgAdmin",
+    "iconUrl": "https://logo.clearbit.com/pgadmin.org"
+  },
+  {
+    "categoria": "Bancos de Dados",
+    "tipo": "winget",
+    "descricao": "Ferramenta oficial para MySQL",
+    "nome": "MySQL Workbench",
+    "id": "Oracle.MySQLWorkbench",
+    "iconUrl": "https://img.icons8.com/color/48/mysql-logo.png"
+  },
+  {
+    "categoria": "Emuladores",
+    "tipo": "winget",
+    "descricao": "Emulador Android líder de mercado",
+    "nome": "BlueStacks",
+    "id": "BlueStacks.BlueStacks",
+    "iconUrl": "https://img.icons8.com/color/48/bluestacks.png"
+  },
+  {
+    "categoria": "Emuladores",
+    "tipo": "winget",
+    "descricao": "Emulador Android focado em performance",
+    "nome": "LDPlayer",
+    "id": "XUANZHI.LDPlayer",
+    "iconUrl": "https://logo.clearbit.com/ldplayer.net"
+  },
+  {
+    "categoria": "Edição de Vídeo",
+    "tipo": "winget",
+    "descricao": "Editor de vídeo profissional e color grading",
+    "nome": "DaVinci Resolve",
+    "id": "BlackmagicDesign.DaVinciResolve",
+    "iconUrl": "https://img.icons8.com/color/48/davinci-resolve.png"
+  },
+  {
+    "categoria": "Edição de Vídeo",
+    "tipo": "winget",
+    "descricao": "Editor de vídeo popular para criadores",
+    "nome": "CapCut",
+    "id": "Bytedance.CapCut",
+    "iconUrl": "https://img.icons8.com/color/48/video-editing.png"
+  },
+  {
+    "categoria": "Áudio & Produção",
+    "tipo": "winget",
+    "descricao": "DAW leve e profissional para produção musical",
+    "nome": "Reaper",
+    "id": "Cockos.REAPER",
+    "iconUrl": "https://logo.clearbit.com/reaper.fm"
+  },
+  {
+    "categoria": "Áudio & Produção",
+    "tipo": "winget",
+    "descricao": "Alternativa open-source ao FL Studio",
+    "nome": "LMMS",
+    "id": "LMMS.LMMS",
+    "iconUrl": "https://logo.clearbit.com/lmms.io"
+  },
+  {
+    "categoria": "Áudio & Produção",
+    "tipo": "winget",
+    "descricao": "Software de notação musical",
+    "nome": "MuseScore",
+    "id": "MuseScore.MuseScore",
+    "iconUrl": "https://logo.clearbit.com/musescore.org"
+  },
+  {
+    "categoria": "Antivírus & Malware",
+    "tipo": "winget",
+    "descricao": "Proteção sólida e silenciosa",
+    "nome": "Bitdefender Antivirus Free",
+    "id": "Bitdefender.AntivirusFree",
+    "iconUrl": "https://img.icons8.com/color/48/bitdefender.png"
+  },
+  {
+    "categoria": "Desenvolvimento de Jogos",
+    "tipo": "winget",
+    "descricao": "Gerenciador de motores Unity",
+    "nome": "Unity Hub",
+    "id": "Unity.UnityHub",
+    "iconUrl": "https://img.icons8.com/color/48/unity.png"
+  },
+  {
+    "categoria": "Desenvolvimento de Jogos",
+    "tipo": "winget",
+    "descricao": "Motor de jogos 2D/3D open-source incrível",
+    "nome": "Godot Engine",
+    "id": "GodotEngine.GodotEngine",
+    "iconUrl": "https://img.icons8.com/color/48/golang.png"
+  },
+  {
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "descricao": "Armazenamento em nuvem do Google",
+    "nome": "Google Drive",
+    "id": "Google.Drive",
+    "iconUrl": "https://img.icons8.com/color/48/golang.png"
+  },
+  {
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "descricao": "Sincronização rápida de arquivos",
+    "nome": "Dropbox",
+    "id": "Dropbox.Dropbox",
+    "iconUrl": "https://img.icons8.com/color/48/dropbox.png"
+  },
+  {
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "descricao": "Cliente desktop Nextcloud open-source",
+    "nome": "Nextcloud",
+    "id": "Nextcloud.NextcloudDesktop",
+    "iconUrl": "https://img.icons8.com/color/48/nextcloud.png"
+  },
+  {
+    "categoria": "Nuvem & Armazenamento",
+    "tipo": "winget",
+    "descricao": "Nuvem com foco em privacidade e criptografia",
+    "nome": "MEGA",
+    "id": "MEGA.MEGAsync",
+    "iconUrl": "https://img.icons8.com/color/48/mega.png"
+  },
+  {
+    "categoria": "Anotações & Produtividade",
+    "tipo": "winget",
+    "descricao": "App clássico de anotações sincronizadas",
+    "nome": "Evernote",
+    "id": "Evernote.Evernote",
+    "iconUrl": "https://img.icons8.com/color/48/evernote.png"
+  },
+  {
+    "categoria": "Players de Mídia",
+    "tipo": "winget",
+    "descricao": "Player clássico de música",
+    "nome": "Winamp",
+    "id": "Radionomy.Winamp",
+    "iconUrl": "https://img.icons8.com/color/48/winamp.png"
+  },
+  {
+    "categoria": "Backup & Clonagem",
+    "tipo": "winget",
+    "descricao": "Clonagem de disco e criação de imagens",
+    "nome": "Macrium Reflect Free",
+    "id": "Macrium.Reflect.Free",
+    "iconUrl": "https://logo.clearbit.com/macrium.com"
+  },
+  {
+    "categoria": "Backup & Clonagem",
+    "tipo": "winget",
+    "descricao": "Solução fácil para backup de sistema",
+    "nome": "AOMEI Backupper",
+    "id": "AOMEI.Backupper",
+    "iconUrl": "https://logo.clearbit.com/aomeitech.com"
+  },
+  {
+    "categoria": "Backup & Clonagem",
+    "tipo": "winget",
+    "descricao": "Sincronização de pastas e backup",
+    "nome": "FreeFileSync",
+    "id": "FreeFileSync.FreeFileSync",
+    "iconUrl": "https://logo.clearbit.com/freefilesync.org"
+  },
+  {
+    "categoria": "VPN & Privacidade",
+    "tipo": "winget",
+    "descricao": "Rede privada mesh com WireGuard",
+    "nome": "Tailscale",
+    "id": "Tailscale.Tailscale",
+    "iconUrl": "https://img.icons8.com/color/48/vpn.png"
+  },
+  {
+    "categoria": "Benchmarking & Stress",
+    "tipo": "winget",
+    "descricao": "Teste de performance brutal para processadores",
+    "nome": "Cinebench R23",
+    "id": "Maxon.CinebenchR23",
+    "iconUrl": "https://logo.clearbit.com/maxon.net"
+  },
+  {
+    "categoria": "Benchmarking & Stress",
+    "tipo": "winget",
+    "descricao": "Teste de estabilidade severo para CPU/RAM",
+    "nome": "Prime95",
+    "id": "GIMPS.Prime95",
+    "iconUrl": "https://logo.clearbit.com/mersenne.org"
+  }
+]

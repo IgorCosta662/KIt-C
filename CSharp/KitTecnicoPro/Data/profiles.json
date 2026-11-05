@@ -1,0 +1,63 @@
+[
+  {
+    "nome": "Básico",
+    "descricao": "Programas essenciais para uso cotidiano",
+    "icone": "🖥️",
+    "apps": [
+      "Google.Chrome",
+      "7zip.7zip",
+      "Adobe.Acrobat.Reader.64-bit",
+      "VideoLAN.VLC",
+      "Telegram.TelegramDesktop",
+      "Zoom.Zoom",
+      "Piriform.CCleaner",
+      "Malwarebytes.Malwarebytes"
+    ]
+  },
+  {
+    "nome": "Gamer",
+    "descricao": "Setup completo para jogadores",
+    "icone": "🎮",
+    "apps": [
+      "Google.Chrome",
+      "Valve.Steam",
+      "EpicGames.EpicGamesLauncher",
+      "Discord.Discord",
+      "Microsoft.VCRedist.2022.x64",
+      "7zip.7zip",
+      "VideoLAN.VLC"
+    ]
+  },
+  {
+    "nome": "Programador",
+    "descricao": "Ferramentas de desenvolvimento completas",
+    "icone": "💻",
+    "apps": [
+      "Microsoft.VisualStudioCode",
+      "Git.Git",
+      "Python.Python.3.12",
+      "OpenJS.NodeJS.LTS",
+      "Microsoft.DotNet.SDK.8",
+      "Google.Chrome",
+      "Mozilla.Firefox",
+      "7zip.7zip",
+      "Telegram.TelegramDesktop"
+    ]
+  },
+  {
+    "nome": "Escritório",
+    "descricao": "Ambiente produtivo para trabalho",
+    "icone": "📄",
+    "apps": [
+      "Google.Chrome",
+      "TheDocumentFoundation.LibreOffice",
+      "Adobe.Acrobat.Reader.64-bit",
+      "Zoom.Zoom",
+      "Telegram.TelegramDesktop",
+      "7zip.7zip",
+      "Piriform.CCleaner",
+      "Malwarebytes.Malwarebytes",
+      "VideoLAN.VLC"
+    ]
+  }
+]

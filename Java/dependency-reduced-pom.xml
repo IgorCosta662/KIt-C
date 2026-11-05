@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kittecnico</groupId>
+  <artifactId>KitTecnicoPro</artifactId>
+  <name>Kit Técnico Pro</name>
+  <version>2.0.0</version>
+  <description>Ferramenta profissional de pós-formatação e manutenção de sistemas Windows</description>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>com.kittecnico/com.kittecnico.App</mainClass>
+          <launcher>KitTecnicoPro</launcher>
+          <jlinkZipName>KitTecnicoPro</jlinkZipName>
+          <jlinkImageName>KitTecnicoPro</jlinkImageName>
+          <noManPages>true</noManPages>
+          <stripDebug>true</stripDebug>
+          <noHeaderFiles>true</noHeaderFiles>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
+        <configuration>
+          <source>21</source>
+          <target>21</target>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.5.1</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer>
+                  <mainClass>com.kittecnico.App</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <properties>
+    <java.version>21</java.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <atlantafx.version>2.0.1</atlantafx.version>
+    <jackson.version>2.16.1</jackson.version>
+    <maven.compiler.target>21</maven.compiler.target>
+    <ikonli.version>12.3.1</ikonli.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <javafx.version>21.0.2</javafx.version>
+    <controlsfx.version>11.2.1</controlsfx.version>
+  </properties>
+</project>

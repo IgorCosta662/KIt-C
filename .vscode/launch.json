@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.kittecnico/com.kittecnico.App",
+            "projectName": "KitTecnicoPro"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CSharp/KitTecnicoPro/bin/Debug/net8.0-windows/KitTecnicoPro.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CSharp/KitTecnicoPro",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

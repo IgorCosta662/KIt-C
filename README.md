@@ -1,169 +1,62 @@
-# ⚡ Kit Técnico Pro
+# ⚡ Kit Técnico Pro v2.0
 
-Ferramenta para **pós-formatação** e **rotina de técnico de TI** no Windows.
-O app oferece uma UI (WPF) para:
-- instalar aplicativos (principalmente via **winget**)
-- executar scripts PowerShell (scripts e plugins)
-- fazer rotinas de limpeza/otimização
-- gerar logs e relatórios do que foi executado
+Ferramenta profissional para **pós-formatação**, **manutenção**, **otimização** e **rotina de técnico de TI** no Windows.
 
-> Este repositório também contém uma versão antiga WinForms em `1.0/` (documentada no README daquela pasta). A solução `KitTecnicoPro.sln` compila a versão **WPF**.
+Este repositório contém duas implementações completas e independentes:
 
----
-
-## ✅ Requisitos
-
-- Windows 10/11
-- .NET SDK 8.0+
-- `winget` disponível (Windows 11 normalmente já inclui)
-- Visual Studio 2022 (opcional) com workload **.NET Desktop Development**
-
-> Algumas ações exigem **Administrador**. O projeto inclui `app.manifest` para solicitar elevação via UAC.
+| Pasta | Stack Tecnológica |
+|-------|-------------------|
+| [`CSharp/`](CSharp/README.md) | **C# 12 / WPF (.NET 8)** — MaterialDesign, Mica Glassmorphism, DI Container (`AppHost`), `System.Text.Json` Source Generators, `ResilientHttpService` com SHA-256 e logging assíncrono `.log` + `.jsonl` |
+| [`Java/`](Java/README.md) | **Java 21 / JavaFX (Maven)** — AtlantaFX, Ikonli, cofre criptografado AES-GCM e execução assíncrona |
 
 ---
 
-## 🚀 Como executar (WPF)
+## ▶ Como iniciar
 
-### Opção A — Atalhos da raiz (recomendado)
+Dê dois cliques em **`Iniciar.bat`** na raiz do projeto e escolha:
 
-- `Iniciar.bat`: build em *Release* e abre o `.exe`
-- `Dev.bat`: build em *Debug* e abre o `.exe`
-
-### Opção B — Visual Studio
-
-1. Abra `KitTecnicoPro.sln`
-2. Pressione **F5**
-
-### Opção C — CLI
-
-```bash
-dotnet restore
-dotnet build .\KitTecnicoPro.sln -c Release
-
-dotnet run --project .\KitTecnicoPro\KitTecnicoPro.csproj
+```text
+[1] Versao C#
+[2] Versao Java
+[3] Preparar / atualizar dependencias (precisa de internet)
+[0] Sair
 ```
 
-### Publicar
-
-Exemplo para `win-x64` (ajuste conforme necessário):
-
-```bash
-dotnet publish .\KitTecnicoPro\KitTecnicoPro.csproj -c Release -r win-x64 --self-contained false
-```
+Atalhos diretos via terminal: `Iniciar.bat csharp`, `Iniciar.bat java` ou `Iniciar.bat preparar`.
 
 ---
 
-## 🧩 Principais funcionalidades (WPF)
+## 🧩 Principais funcionalidades
 
-- Instalar apps selecionados / instalar tudo
-- Instalar por **perfil** (Básico, Gamer, Programador, Escritório)
-- Atualizar programas: `winget upgrade --all`
-- Verificar o que já está instalado via `winget list`
-- Limpeza/otimização (via PowerShell)
-- **Scripts**: catálogo/edit/drag&drop de `.ps1` (pasta `Scripts/`)
-- **Plugins**: execução rápida de `.ps1` (pasta `KitTecnicoPro/Plugins/`)
-- Logs persistentes em arquivo + log em tela
-- Relatório pós-instalação (TXT/HTML)
+- **Catálogo de Aplicativos**: Instalação silenciosa em lote ou paralela via `winget`, URL direta (`ResilientHttpService` com progresso em `MB/s` e validação `SHA-256`) ou instalador local/offline.
+- **Perfis Inteligentes**: Seleção rápida por perfil (*Básico*, *Gamer*, *Programador*, *Escritório*) e criação de perfis customizados.
+- **Gerenciador de ISOs**: Catálogo com +110 sistemas (Windows, Linux, BSD, Utilitários) com download resiliente via stream (`ArrayPool<byte>`) e verificação de hash.
+- **Dashboard de Hardware**: Telemetria em tempo real (CPU, RAM, Discos, Rede, GPU e Sistema) via `PeriodicTimer`.
+- **Cofre Técnico Seguro**: Armazenamento criptografado de credenciais (DPAPI no C# / AES-256-GCM PBKDF2 no Java).
+- **Otimização, Scripts & Plugins**: Execução auditada e segura de rotinas PowerShell (`.ps1`), ponto de restauração e limpeza de sistema.
+- **Logs Estruturados & Relatórios**: Gravação assíncrona em `Logs/` (`.log` legível e `.jsonl` estruturado) + exportação de relatórios pós-instalação (TXT/HTML).
 
 ---
 
-## ⚙️ Configuração por JSON (sem recompilar)
+## 📦 Dependências portáteis (`Dependencias/`)
 
-A versão WPF carrega estes arquivos de `KitTecnicoPro/Data/` (copiados para a saída no build):
+Tudo o que as duas versões precisam pode ficar isolado dentro da pasta `Dependencias/`, sem exigir instalação global no Windows:
 
-- `apps.json`: catálogo de aplicativos
-- `profiles.json`: perfis (listas de IDs)
-- `settings.json`: parâmetros de execução
+| Pasta | Conteúdo |
+|-------|----------|
+| `Dependencias/dotnet` | .NET 8 SDK + Desktop Runtime |
+| `Dependencias/nuget`  | Cache offline de pacotes NuGet da versão C# |
+| `Dependencias/jdk`    | JDK 21 (Eclipse Temurin) |
+| `Dependencias/maven`  | Apache Maven 3.9.6 |
+| `Dependencias/m2`     | Repositório local Maven da versão Java |
 
-### `apps.json`
-
-Formato (exemplo):
-
-```json
-{ "nome": "Google Chrome", "id": "Google.Chrome", "categoria": "Navegadores", "tipo": "winget", "url": null, "silentArgs": null, "descricao": "Navegador web do Google" }
-```
-
-Campos mais usados:
-- `tipo`:
-  - `winget` (padrão): instala via `winget install --id ... --silent`
-  - `custom`: baixa de uma `url` e executa com `silentArgs`
-  - `local`: executa um instalador em `localPath` (quando definido)
-
-### `profiles.json`
-
-Cada perfil referencia uma lista de `apps` (IDs do `winget`):
-
-```json
-{ "nome": "Programador", "descricao": "...", "icone": "💻", "apps": ["Microsoft.VisualStudioCode", "Git.Git"] }
-```
-
-### `settings.json`
-
-- `onlineAppsJsonUrl`: URL opcional para atualizar a lista de apps remotamente (com fallback para o arquivo local)
-- `maxParallelInstalls`: número máximo de instalações simultâneas
-- `installTimeoutMinutes`: timeout por instalação (quando aplicável)
-- `createRestorePoint`: cria ponto de restauração antes de instalar (quando habilitado no app)
+> As pastas `Dependencias/`, `Portatil/`, `offline/`, `cache/` e `isos/` estão no `.gitignore` para manter o repositório Git leve e rápido.
 
 ---
 
-## 📜 Scripts (pasta `Scripts/`)
+## ⚙️ Configuração por JSON (`CSharp/KitTecnicoPro/Data/`)
 
-A UI de Scripts usa a pasta **na raiz do repositório**:
-
-- `Scripts/` (com subpastas por categoria, por exemplo `Scripts/Manutenção`, `Scripts/Rede`, etc.)
-
-Você pode:
-- apontar para um `.ps1` existente
-- arrastar e soltar `.ps1` na janela de Scripts
-- marcar execução como admin (quando suportado)
-
----
-
-## 🔌 Plugins (pasta `KitTecnicoPro/Plugins/`)
-
-Coloque scripts `.ps1` em `KitTecnicoPro/Plugins/`. Eles aparecem na UI de Plugins e podem ser executados.
-
-Observações:
-- o app faz **validação básica** para bloquear comandos destrutivos óbvios
-- scripts são executados com `-ExecutionPolicy Bypass` (use com responsabilidade)
-
----
-
-## 📦 Suporte offline (instaladores locais)
-
-O app procura uma pasta chamada `offline` **ao lado do executável** (diretório base do app). Se encontrar um instalador compatível, ele é usado antes do `winget`.
-
-Dica prática durante desenvolvimento:
-- após build, crie/coloque instaladores em `KitTecnicoPro/bin/<Debug|Release>/net8.0-windows/offline/`
-
-O match é feito pelo nome do arquivo conter o `id` (ou variações com `_`).
-
----
-
-## 🧾 Logs
-
-Os logs persistentes são gravados em uma pasta `Logs/` ao lado do executável, no padrão:
-
-- `Logs/ktp_YYYY-MM-DD.log`
-
----
-
-## 📁 Estrutura do repositório (alto nível)
-
-- `KitTecnicoPro/`: app principal (WPF)
-  - `Data/`: `apps.json`, `profiles.json`, `settings.json`
-  - `Services/`, `ViewModels/`, `Views/`: arquitetura MVVM
-  - `Plugins/`: plugins `.ps1`
-- `Scripts/`: scripts PowerShell organizados por categoria
-- `Setups/`: instaladores organizados por categoria + ISOs
-- `Ferramentas/`: ferramentas manuais (e subpastas)
-- `1.0/`: versão antiga (WinForms)
-
----
-
-## ⚠ Avisos importantes
-
-- **winget**: se o ambiente estiver sem winget/Store, as instalações por winget vão falhar.
-- **Permissões**: ações de sistema (limpeza profunda, restore point, etc.) podem exigir administrador.
-- **Terceiros/licenças**: pastas como `Ferramentas/` e `Setups/` podem conter ferramentas/instaladores de terceiros; use e distribua apenas o que você tem direito/licença.
-  - Existe referência a `Ferramentas/Cracks` no código de caminhos; este repositório não deve ser usado para promover uso indevido. Recomenda-se remover/ignorar esse conteúdo se não for aplicável.
+- `apps.json`: catálogo de aplicativos (`winget`, `custom` ou `local`).
+- `profiles.json`: perfis pré-configurados e personalizados.
+- `isos.json`: catálogo customizável de imagens ISO.
+- `settings.json`: parâmetros tipados (`maxParallelInstalls`, `httpTimeoutMinutes`, `logRetentionDays`, `createRestorePoint`, `onlineAppsJsonUrl`).

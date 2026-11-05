@@ -1,0 +1,7 @@
+{
+  "onlineAppsJsonUrl": "",
+  "maxParallelInstalls": 3,
+  "installTimeoutMinutes": 15,
+  "autoCheckInstalled": false,
+  "createRestorePoint": true
+}
